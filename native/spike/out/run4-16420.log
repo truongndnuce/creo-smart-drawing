@@ -1,0 +1,15 @@
+DLL version 1 loaded in .NET 10.0.14, x64=True
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+cb_start -> 0 (12438 ms) 
+cb_set_workdir -> 0
+A elev 0, h 50: block -> 0 mass properties unavailable (-1) | measure -> 0 | Y span 0..50  (X -50..50, Z -50..50)
+B elev 30, h 50: block -> 0 mass properties unavailable (-1) | measure -> 0 | Y span -30..50  (X -50..50, Z -50..50)
+ giving up- peer appn and/or msg module is not alive
+C elev -30, h 50: block -> -11 cb_block failed at 'ProFeatureWithoptionsRedefine': -11 | measure -> -1
+two blocks: -11 measure -1 | box=(0,0,0)-(0,0,0)
+Creo stays open for 20 s ...
+cb_end -> -11 (0 ms) ProEngineerEnd failed: -11
+exit=1
+WARNING: Name Server is shutting down due to timeout reached.

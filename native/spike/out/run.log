@@ -1,0 +1,10 @@
+ProEngineerStart("C:\Program Files\PTC\Creo 10.0.1.0\Parametric\bin\parametric.exe" "C:\Program Files\PTC\Creo 10.0.1.0\Parametric\bin\parametric.psf") ...
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+ProEngineerStart -> 0
+ProDirectoryChange -> 0
+ProDirectoryCurrentGet -> 0, 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work\'
+ProEngineerEnd -> 0
+exit=0
+WARNING: Name Server is shutting down due to timeout reached.

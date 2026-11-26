@@ -1,0 +1,1123 @@
+﻿!trail file version No. 2123
+!Creo  TM  10.0  (c) 2026 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 23412
+!	Application: Creo_Parametric
+!	Start date&time: 2026/11/26  23:06:49
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.1.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\traceback.log
+!end Exit Logger data.
+< 0 1.647407 2552 0 0 1390 2560 0 0 1440 13
+!mem_use INCREASE Blocks 935884, AppSize 13786510, SysSize 34808888
+< 0 1.052000 1052 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1003 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1006 2560 0 0 1440 13
+< 0 0.950000 950 0 0 1006 2560 0 0 1440 13
+< 0 1.409185 2319 0 0 1189 2560 0 0 1440 13
+< 0 1.409185 2182 0 0 1189 2560 0 0 1440 13
+< 0 1.408000 2182 0 0 1188 2560 0 0 1440 13
+< 0 1.417481 2190 0 0 1196 2560 0 0 1440 13
+!%CIWelcome to Creo Parametric 10.0.1.0.
+!AFX datecode: 10.0.1.0-rc.4 2023.05.06
+!AFX exec path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\x86e_win64\afx100.dll
+!AFX text path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\
+< 0 1.417481 2381 0 0 1196 2560 0 0 1440 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): started Pro/E.
+!	exec path: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\src\Cadflow.CreoWorker\bin\Release\net10.0\CreoBridge10.DLL
+!	type: asynchronous
+!26-Nov-26 23:06:51  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\mmns_part_solid_abs.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+!26-Nov-26 23:06:51  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\mmns_part_solid_abs.prt
+!26-Nov-26 23:06:51  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_37afb8e5.prt.1
+!26-Nov-26 23:06:51  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_37afb8e5.prt.1
+< 0 1.417481 2160 0 0 1196 2560 0 0 1440 13
+!mem_use INCREASE Blocks 1039236, AppSize 48059233, SysSize 70607736
+@ trail error  : Creating feature 40 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 10 type 5304 
+!sket_eps      0.1490220656
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 5 out of 5 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 16 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 67 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 28 type 5304 
+@ trail error  : Creating feature 69 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 36 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 7 out of 7 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 42 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 106 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 54 type 5304 
+@ trail error  : Creating feature 108 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 62 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 9 out of 9 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 68 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 145 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 80 type 5304 
+@ trail error  : Creating feature 147 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 88 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 11 out of 11 ...
+!%CWWARNING: EXTRUDE_4 is entirely outside the model.
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 94 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 174 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 106 type 5304 
+@ trail error  : Creating feature 176 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 114 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 13 out of 13 ...
+!%CWWARNING: EXTRUDE_5 is entirely outside the model.
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 120 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 203 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 132 type 5304 
+@ trail error  : Creating feature 205 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 140 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 15 out of 15 ...
+!%CWWARNING: EXTRUDE_6 is entirely outside the model.
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 146 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 232 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 158 type 5304 
+@ trail error  : Creating feature 234 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 166 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 17 out of 17 ...
+!%CWWARNING: EXTRUDE_7 is entirely outside the model.
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 172 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 254 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 183 type 5304 
+@ trail error  : Creating feature 256 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 191 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 19 out of 19 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 197 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 293 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 208 type 5304 
+@ trail error  : Creating feature 295 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 216 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 21 out of 21 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 222 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 332 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 233 type 5304 
+@ trail error  : Creating feature 334 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 241 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 23 out of 23 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 247 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 655 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 276 type 5304 
+@ trail error  : Creating feature 657 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 284 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 25 out of 25 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 290 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 978 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 319 type 5304 
+@ trail error  : Creating feature 980 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 327 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 27 out of 27 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 333 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 1301 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 362 type 5304 
+@ trail error  : Creating feature 1303 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 370 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 29 out of 29 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 376 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 1624 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 405 type 5304 
+@ trail error  : Creating feature 1626 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 413 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 31 out of 31 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 419 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+@ trail error  : Creating feature 1947 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 448 type 5304 
+@ trail error  : Creating feature 1949 in model TRANSFORMER_37AFB8E5 - error 0
+ 0 
+!Undo: added rec_id 456 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_37AFB8E5 feature 33 out of 33 ...
+!%CITRANSFORMER_37AFB8E5 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 462 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+!%CIPart 'TRANSFORMER_37AFB8E5' not changed since last regen.
+!26-Nov-26 23:07:02  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_a353bdd1.prt.1
+!26-Nov-26 23:07:02  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_a353bdd1.prt.1
+@ trail error  : Creating feature 40 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 11 type 5304 
+!sket_eps      0.6460328441
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 5 out of 5 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 17 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+~ Timer `` `` `EmbedBrowserTimer`
+@ trail error  : Creating feature 67 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 29 type 5304 
+@ trail error  : Creating feature 69 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 37 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 7 out of 7 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 43 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 106 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 55 type 5304 
+@ trail error  : Creating feature 108 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 63 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 9 out of 9 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 69 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 145 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 81 type 5304 
+@ trail error  : Creating feature 147 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 89 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 11 out of 11 ...
+!%CWWARNING: EXTRUDE_4 is entirely outside the model.
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 95 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 174 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 107 type 5304 
+@ trail error  : Creating feature 176 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 115 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 13 out of 13 ...
+!%CWWARNING: EXTRUDE_5 is entirely outside the model.
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 121 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 203 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 133 type 5304 
+@ trail error  : Creating feature 205 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 141 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 15 out of 15 ...
+!%CWWARNING: EXTRUDE_6 is entirely outside the model.
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 147 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 232 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 159 type 5304 
+@ trail error  : Creating feature 234 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 167 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 17 out of 17 ...
+!%CWWARNING: EXTRUDE_7 is entirely outside the model.
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 173 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 254 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 184 type 5304 
+@ trail error  : Creating feature 256 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 192 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 19 out of 19 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 198 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 293 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 209 type 5304 
+@ trail error  : Creating feature 295 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 217 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 21 out of 21 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 223 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 332 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 234 type 5304 
+@ trail error  : Creating feature 334 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 242 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 23 out of 23 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 248 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 655 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 277 type 5304 
+@ trail error  : Creating feature 657 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 285 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 25 out of 25 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 291 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 978 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 320 type 5304 
+@ trail error  : Creating feature 980 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 328 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 27 out of 27 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 334 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 1301 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 363 type 5304 
+@ trail error  : Creating feature 1303 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 371 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 29 out of 29 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 377 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 1624 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 406 type 5304 
+@ trail error  : Creating feature 1626 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 414 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 31 out of 31 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 420 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+@ trail error  : Creating feature 1947 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 449 type 5304 
+@ trail error  : Creating feature 1949 in model TRANSFORMER_A353BDD1 - error 0
+ 0 
+!Undo: added rec_id 457 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_A353BDD1 feature 33 out of 33 ...
+!%CITRANSFORMER_A353BDD1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 463 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+!%CIPart 'TRANSFORMER_A353BDD1' not changed since last regen.
+!26-Nov-26 23:07:05  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_fa641ac1.prt.1
+!26-Nov-26 23:07:05  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_fa641ac1.prt.1
+@ trail error  : Creating feature 40 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 12 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 5 out of 5 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 18 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 67 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 30 type 5304 
+@ trail error  : Creating feature 69 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 38 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 7 out of 7 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 44 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 106 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 56 type 5304 
+@ trail error  : Creating feature 108 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 64 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 9 out of 9 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 70 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 145 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 82 type 5304 
+@ trail error  : Creating feature 147 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 90 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 11 out of 11 ...
+!%CWWARNING: EXTRUDE_4 is entirely outside the model.
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 96 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 174 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 108 type 5304 
+@ trail error  : Creating feature 176 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 116 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 13 out of 13 ...
+!%CWWARNING: EXTRUDE_5 is entirely outside the model.
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 122 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 203 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 134 type 5304 
+@ trail error  : Creating feature 205 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 142 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 15 out of 15 ...
+!%CWWARNING: EXTRUDE_6 is entirely outside the model.
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 148 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 232 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 160 type 5304 
+@ trail error  : Creating feature 234 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 168 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 17 out of 17 ...
+!%CWWARNING: EXTRUDE_7 is entirely outside the model.
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 174 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 254 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 185 type 5304 
+@ trail error  : Creating feature 256 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 193 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 19 out of 19 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 199 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 293 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 210 type 5304 
+@ trail error  : Creating feature 295 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 218 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 21 out of 21 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 224 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 332 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 235 type 5304 
+@ trail error  : Creating feature 334 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 243 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 23 out of 23 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 249 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 655 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 278 type 5304 
+@ trail error  : Creating feature 657 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 286 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 25 out of 25 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 292 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 978 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 321 type 5304 
+@ trail error  : Creating feature 980 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 329 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 27 out of 27 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 335 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 1301 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 364 type 5304 
+@ trail error  : Creating feature 1303 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 372 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 29 out of 29 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 378 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 1624 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 407 type 5304 
+@ trail error  : Creating feature 1626 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 415 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 31 out of 31 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 421 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+@ trail error  : Creating feature 1947 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 450 type 5304 
+@ trail error  : Creating feature 1949 in model TRANSFORMER_FA641AC1 - error 0
+ 0 
+!Undo: added rec_id 458 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_FA641AC1 feature 33 out of 33 ...
+!%CITRANSFORMER_FA641AC1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 464 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+!%CIPart 'TRANSFORMER_FA641AC1' not changed since last regen.
+!26-Nov-26 23:07:09  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_2d9b9236.prt.1
+!26-Nov-26 23:07:09  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_2d9b9236.prt.1
+@ trail error  : Creating feature 40 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 13 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 5 out of 5 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 19 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 67 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 31 type 5304 
+@ trail error  : Creating feature 69 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 39 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 7 out of 7 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 45 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 106 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 57 type 5304 
+@ trail error  : Creating feature 108 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 65 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 9 out of 9 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 71 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 145 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 83 type 5304 
+@ trail error  : Creating feature 147 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 91 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 11 out of 11 ...
+!%CWWARNING: EXTRUDE_4 is entirely outside the model.
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 97 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 174 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 109 type 5304 
+@ trail error  : Creating feature 176 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 117 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 13 out of 13 ...
+!%CWWARNING: EXTRUDE_5 is entirely outside the model.
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 123 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 203 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 135 type 5304 
+@ trail error  : Creating feature 205 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 143 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 15 out of 15 ...
+!%CWWARNING: EXTRUDE_6 is entirely outside the model.
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 149 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 232 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 161 type 5304 
+@ trail error  : Creating feature 234 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 169 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 17 out of 17 ...
+!%CWWARNING: EXTRUDE_7 is entirely outside the model.
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 175 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 254 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 186 type 5304 
+@ trail error  : Creating feature 256 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 194 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 19 out of 19 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 200 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 293 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 211 type 5304 
+@ trail error  : Creating feature 295 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 219 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 21 out of 21 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 225 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 332 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 236 type 5304 
+@ trail error  : Creating feature 334 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 244 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 23 out of 23 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 250 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 655 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 279 type 5304 
+@ trail error  : Creating feature 657 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 287 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 25 out of 25 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 293 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 978 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 322 type 5304 
+@ trail error  : Creating feature 980 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 330 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 27 out of 27 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 336 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 1301 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 365 type 5304 
+@ trail error  : Creating feature 1303 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 373 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 29 out of 29 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 379 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 1624 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 408 type 5304 
+@ trail error  : Creating feature 1626 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 416 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 31 out of 31 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 422 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+@ trail error  : Creating feature 1947 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 451 type 5304 
+@ trail error  : Creating feature 1949 in model TRANSFORMER_2D9B9236 - error 0
+ 0 
+!Undo: added rec_id 459 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_2D9B9236 feature 33 out of 33 ...
+!%CITRANSFORMER_2D9B9236 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 465 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+!%CIPart 'TRANSFORMER_2D9B9236' not changed since last regen.
+!26-Nov-26 23:07:12  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_59331833.prt.1
+!26-Nov-26 23:07:12  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\transformer_59331833.prt.1
+@ trail error  : Creating feature 40 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 14 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 5 out of 5 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 20 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 67 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 32 type 5304 
+@ trail error  : Creating feature 69 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 40 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 7 out of 7 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 46 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 106 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 58 type 5304 
+@ trail error  : Creating feature 108 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 66 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 9 out of 9 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 72 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 145 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 84 type 5304 
+@ trail error  : Creating feature 147 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 92 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 11 out of 11 ...
+!%CWWARNING: EXTRUDE_4 is entirely outside the model.
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 98 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 174 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 110 type 5304 
+@ trail error  : Creating feature 176 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 118 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 13 out of 13 ...
+!%CWWARNING: EXTRUDE_5 is entirely outside the model.
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 124 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 203 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 136 type 5304 
+@ trail error  : Creating feature 205 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 144 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 15 out of 15 ...
+!%CWWARNING: EXTRUDE_6 is entirely outside the model.
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 150 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 232 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 162 type 5304 
+@ trail error  : Creating feature 234 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 170 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 17 out of 17 ...
+!%CWWARNING: EXTRUDE_7 is entirely outside the model.
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 176 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 254 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 187 type 5304 
+@ trail error  : Creating feature 256 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 195 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 19 out of 19 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 201 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 293 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 212 type 5304 
+@ trail error  : Creating feature 295 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 220 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 21 out of 21 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 226 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 332 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 237 type 5304 
+@ trail error  : Creating feature 334 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 245 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 23 out of 23 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 251 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 655 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 280 type 5304 
+@ trail error  : Creating feature 657 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 288 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 25 out of 25 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 294 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 978 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 323 type 5304 
+@ trail error  : Creating feature 980 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 331 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 27 out of 27 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 337 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 1301 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 366 type 5304 
+@ trail error  : Creating feature 1303 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 374 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 29 out of 29 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 380 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 1624 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 409 type 5304 
+@ trail error  : Creating feature 1626 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 417 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 31 out of 31 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 423 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+@ trail error  : Creating feature 1947 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 452 type 5304 
+@ trail error  : Creating feature 1949 in model TRANSFORMER_59331833 - error 0
+ 0 
+!Undo: added rec_id 460 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating TRANSFORMER_59331833 feature 33 out of 33 ...
+!%CITRANSFORMER_59331833 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 466 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+!%CIPart 'TRANSFORMER_59331833' not changed since last regen.
+< 0 0.858000 858 0 0 1181 2560 0 0 1440 13
+~ Resize `main_dlg_cur` `main_dlg_cur` 4 25.178596 0.000000 24.633773 26.949270
+~ Move `main_dlg_cur` `main_dlg_cur` 2 25.178596 0.000000
+!26-Nov-26 23:07:37  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\box_e4566f4d.prt.1
+!26-Nov-26 23:07:37  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\worker-work\creo\box_e4566f4d.prt.1
+< 0 0.988000 988 0 0 1181 2560 0 0 1440 13
+@ trail error  : Creating feature 40 in model BOX_E4566F4D - error 0
+ 0 
+!Undo: added rec_id 15 type 5304 
+!sket_eps       1.412379497
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BOX_E4566F4D feature 5 out of 5 ...
+!%CIBOX_E4566F4D regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 21 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BOX_E4566F4D' not changed since last regen.
+@ trail error  : Creating feature 115 in model BOX_E4566F4D - error 0
+ 0 
+!Undo: added rec_id 35 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BOX_E4566F4D feature 6 out of 6 ...
+!%CIBOX_E4566F4D regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 41 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BOX_E4566F4D' not changed since last regen.
+@ trail error  : Creating feature 184 in model BOX_E4566F4D - error 0
+ 0 
+!Undo: added rec_id 53 type 5304 
+@ trail error  : Creating feature 186 in model BOX_E4566F4D - error 0
+ 0 
+!Undo: added rec_id 61 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BOX_E4566F4D feature 8 out of 8 ...
+!%CIBOX_E4566F4D regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 67 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BOX_E4566F4D' not changed since last regen.
+@ trail error  : Creating feature 279 in model BOX_E4566F4D - error 0
+ 0 
+!Undo: added rec_id 79 type 5304 
+@ trail error  : Creating feature 281 in model BOX_E4566F4D - error 0
+ 0 
+!Undo: added rec_id 87 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BOX_E4566F4D feature 10 out of 10 ...
+!%CIBOX_E4566F4D regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 93 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BOX_E4566F4D' not changed since last regen.
+!%CIPart 'BOX_E4566F4D' not changed since last regen.

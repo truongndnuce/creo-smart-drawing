@@ -1,0 +1,19 @@
+starting Creo ...
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+box = (-150,0,-100)-(150,90,100)
+expected = (-150,0,-100)-(150,90,100)
+RESULT OK
+box.gea run: ok
+  log: Start Building box 
+  log: State Building body 10
+  log: State Building lid 55
+  log: State Updating the model 90
+  log: PRINT (93) Built box 100 mm x 60 mm x 40 mm
+  log: End  
+box.gea box = (-50,0,-30)-(50,42,30,000000000000004)
+defaults: length 100, width 60, height 40; all: BX_Length=100, BX_Width=60, BX_Height=40, BX_Wall=2, BX_Bottom=2, BX_CornerRadius=3, BX_LidThickness=2, BX_LidLip=4, BX_LidClearance=0,3
+transformer.gea run: FAILED Creo failed in Bushing: cb_revolve failed (-11): cb_block failed at 'ProFeatureWithoptionsRedefine': -11 (9 bodies)
+  log: Start Building the transformer 
+WARNING: Name Server is shutting down due to timeout reached.

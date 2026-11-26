@@ -1,0 +1,13 @@
+DLL version 1 loaded in .NET 10.0.14, x64=True
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+cb_start -> 0 (12060 ms) 
+cb_set_workdir -> 0
+A elev 0, h 50: block -> 0 mass properties unavailable (-1) | measure -> 0 | Y span 0..50  (X -50..50, Z -50..50)
+B elev 30, h 50: block -> 0 mass properties unavailable (-1) | measure -> 0 | Y span 30..80  (X -50..50, Z -50..50)
+C elev -30, h 50: block -> 0 mass properties unavailable (-1) | measure -> 0 | Y span -30..20  (X -50..50, Z -50..50)
+two blocks: 0 measure 0 | box=(-100,0,-50)-(100,70,50)
+Creo stays open for 20 s ...
+cb_end -> 0 (0 ms) 
+exit=0

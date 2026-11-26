@@ -1,0 +1,975 @@
+starting Creo ...
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+[cb] datum plane
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+box = (-150,0,-100)-(150,90,100)
+expected = (-150,0,-100)-(150,90,100)
+RESULT OK
+[cb] datum plane
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] datum plane
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+box.gea run: ok
+  log: Start Building box 
+  log: State Building body 10
+  log: State Building lid 55
+  log: State Updating the model 90
+  log: PRINT (93) Built box 100 mm x 60 mm x 40 mm
+  log: End  
+box.gea box = (-50,0,-30)-(50,42,30,000000000000004)
+defaults: length 100, width 60, height 40; all: BX_Length=100, BX_Width=60, BX_Height=40, BX_Wall=2, BX_Bottom=2, BX_CornerRadius=3, BX_LidThickness=2, BX_LidLip=4, BX_LidClearance=0,3
+[cb] datum plane
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] depth
+[cb] depth to
+[cb] depth to type
+[cb] depth to value
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] path1
+[cb] path1 set
+[cb] get matrlside
+[cb] set matrlside
+[cb] path2
+[cb] path2 set
+[cb] get direction
+[cb] set direction
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] angle
+[cb] angle from
+[cb] angle from type
+[cb] angle to
+[cb] angle to type
+[cb] angle to val
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] angle
+[cb] angle from
+[cb] angle from type
+[cb] angle to
+[cb] angle to type
+[cb] angle to val
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] angle
+[cb] angle from
+[cb] angle from type
+[cb] angle to
+[cb] angle to type
+[cb] angle to val
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] angle
+[cb] angle from
+[cb] angle from type
+[cb] angle to
+[cb] angle to type
+[cb] angle to val
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] angle
+[cb] angle from
+[cb] angle from type
+[cb] angle to
+[cb] angle to type
+[cb] angle to val
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+[cb] offset datum
+[cb] datum orient
+[cb] datum refA
+[cb] datum refB
+[cb] tree
+[cb] form
+[cb] solid type
+[cb] add material
+[cb] not thin
+[cb] angle
+[cb] angle from
+[cb] angle from type
+[cb] angle to
+[cb] angle to type
+[cb] angle to val
+[cb] section
+[cb] setup plane
+[cb] sec plane
+[cb] view dir
+[cb] orient dir
+[cb] orient ref
+[cb] ProMdlToModelitem
+[cb] ProSelectionAlloc
+[cb] ProArrayAlloc
+[cb] ProFeatureWithoptionsCreate(incomplete)
+[cb] ProFeatureElemtreeExtract
+[cb] ProElempathAlloc
+[cb] ProElempathDataSet
+[cb] get sketcher
+[cb] get section
+[cb] sketch entities added
+[cb] ProSectionAutodim
+[cb] ProSectionRegenerate
+[cb] ProSectionRegenerate done
+[cb] ProSelectionAsmcomppathGet
+[cb] ProArrayAlloc2
+[cb] ProFeatureWithoptionsRedefine
+transformer.gea run: ok (15 bodies)
+  log: Start Building the transformer 
+  log: PRINT (274) Built transformer 2000 mm x 1100 mm x 1500 mm, 3 radiators, 6 bushings
+  log: End  
+transformer box = (-1120,0,-670)-(1120,2629,95,800)
+holding Creo open for 90 s ...

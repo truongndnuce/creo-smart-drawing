@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Shared core: .gea interpreter + parameter models + BOM writer. No CAD dependency (copied from inventor-generator-box, see docs/upstream.md). -->
+  <PropertyGroup>
+    <AssemblyName>Cadflow.Core</AssemblyName>
+    <RootNamespace>Cadflow.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Scripts\**\*.gea" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

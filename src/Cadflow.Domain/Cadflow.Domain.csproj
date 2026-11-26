@@ -1,0 +1,3 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Entities and business rules only. References nothing. -->
+</Project>

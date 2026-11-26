@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Adapters for the ports of Application: persistence, identity, project directory, vault. -->
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cadflow.Application\Cadflow.Application.csproj" />
+  </ItemGroup>
+</Project>

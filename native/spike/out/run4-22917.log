@@ -1,0 +1,12 @@
+DLL version 1 loaded in .NET 10.0.14, x64=True
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+cb_start -> 0 (12048 ms) 
+cb_set_workdir -> 0
+strategy 0: cb_block -> -2 (229 ms) cb_block failed at 'ProSectionRegenerate': -2
+strategy 1: cb_block -> 0 (232 ms) 
+measure -> -1 ProSolidMassPropertyGet failed: -1
+Creo stays open for 20 s ...
+cb_end -> 0 (0 ms) ProSolidMassPropertyGet failed: -1
+exit=1

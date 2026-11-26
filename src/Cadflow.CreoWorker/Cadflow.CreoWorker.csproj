@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Creo worker: polls the Creo API for jobs, builds them through an ICreoSession (sim now, native Creo via CreoBridge10 later), uploads the files. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Cadflow.CreoWorker</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- CreoBridge10.dll + the two Creo runtime DLLs it needs (staged by native/spike/dllhost); only used by CADFLOW_BACKEND=native -->
+    <None Include="..\..\native\spike\dllhost\out\CreoBridge10.dll;..\..\native\spike\dllhost\out\ucore68.dll;..\..\native\spike\dllhost\out\udata68.dll" CopyToOutputDirectory="PreserveNewest" Link="%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cadflow.Core\Cadflow.Core.csproj" />
+  </ItemGroup>
+</Project>
+
+

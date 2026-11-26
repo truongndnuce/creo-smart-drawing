@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Use cases + ports (interfaces). Depends on Domain and Core only. -->
+  <ItemGroup>
+    <ProjectReference Include="..\Cadflow.Domain\Cadflow.Domain.csproj" />
+    <ProjectReference Include="..\Cadflow.Core\Cadflow.Core.csproj" />
+  </ItemGroup>
+</Project>

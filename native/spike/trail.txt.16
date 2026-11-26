@@ -1,0 +1,126 @@
+﻿!trail file version No. 2123
+!Creo  TM  10.0  (c) 2026 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 37244
+!	Application: Creo_Parametric
+!	Start date&time: 2026/11/26  19:12:41
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.1.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\traceback.log
+!end Exit Logger data.
+< 0 1.647407 2552 0 0 1390 2560 0 0 1440 13
+!mem_use INCREASE Blocks 935888, AppSize 13503367, SysSize 34847672
+< 0 1.052000 1052 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1003 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1006 2560 0 0 1440 13
+< 0 0.950000 950 0 0 1006 2560 0 0 1440 13
+< 0 1.409185 2319 0 0 1189 2560 0 0 1440 13
+< 0 1.409185 2182 0 0 1189 2560 0 0 1440 13
+< 0 1.408000 2182 0 0 1188 2560 0 0 1440 13
+< 0 1.417481 2190 0 0 1196 2560 0 0 1440 13
+!%CIWelcome to Creo Parametric 10.0.1.0.
+!AFX datecode: 10.0.1.0-rc.4 2023.05.06
+!AFX exec path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\x86e_win64\afx100.dll
+!AFX text path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\
+< 0 1.417481 2381 0 0 1196 2560 0 0 1440 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): started Pro/E.
+!	exec path: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\dllhost\out\CreoBridge10.DLL
+!	type: asynchronous
+!26-Nov-26 19:12:42  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\mmns_part_solid_abs.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+!26-Nov-26 19:12:42  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\mmns_part_solid_abs.prt
+!26-Nov-26 19:12:42  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_y_axis_top_flip0.prt.1
+!26-Nov-26 19:12:42  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_y_axis_top_flip0.prt.1
+< 0 1.417481 2160 0 0 1196 2560 0 0 1440 13
+!mem_use INCREASE Blocks 1039205, AppSize 47839757, SysSize 70646520
+@ trail error  : Creating feature 40 in model CYL_Y_AXIS_TOP_FLIP0 - error 0
+ 0 
+!Undo: added rec_id 10 type 5304 
+@ trail error  : Creating feature 42 in model CYL_Y_AXIS_TOP_FLIP0 - error 0
+ 0 
+!Undo: added rec_id 18 type 5304 
+!sket_eps      0.2683237516
+!ProgressBarDlg: Regen Started
+!%CIRegenerating CYL_Y_AXIS_TOP_FLIP0 feature 6 out of 6 ...
+!%CICYL_Y_AXIS_TOP_FLIP0 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 24 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'CYL_Y_AXIS_TOP_FLIP0' not changed since last regen.
+!%CIPart 'CYL_Y_AXIS_TOP_FLIP0' not changed since last regen.
+!26-Nov-26 19:12:47  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_x_axis_right_flip0.prt.1
+!26-Nov-26 19:12:47  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_x_axis_right_flip0.prt.1
+@ trail error  : Creating feature 40 in model CYL_X_AXIS_RIGHT_FLIP0 - error 0
+ 0 
+!Undo: added rec_id 11 type 5304 
+@ trail error  : Creating feature 42 in model CYL_X_AXIS_RIGHT_FLIP0 - error 0
+ 0 
+!Undo: added rec_id 19 type 5304 
+!sket_eps     0.07092972491
+!ProgressBarDlg: Regen Started
+!%CIRegenerating CYL_X_AXIS_RIGHT_FLIP0 feature 6 out of 6 ...
+!%CICYL_X_AXIS_RIGHT_FLIP0 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 25 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'CYL_X_AXIS_RIGHT_FLIP0' not changed since last regen.
+~ Timer `` `` `EmbedBrowserTimer`
+!%CIPart 'CYL_X_AXIS_RIGHT_FLIP0' not changed since last regen.
+!26-Nov-26 19:12:47  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_x_axis_right_flip1.prt.1
+!26-Nov-26 19:12:47  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_x_axis_right_flip1.prt.1
+@ trail error  : Creating feature 40 in model CYL_X_AXIS_RIGHT_FLIP1 - error 0
+ 0 
+!Undo: added rec_id 12 type 5304 
+@ trail error  : Creating feature 42 in model CYL_X_AXIS_RIGHT_FLIP1 - error 0
+ 0 
+!Undo: added rec_id 20 type 5304 
+!sket_eps     0.01704753637
+!ProgressBarDlg: Regen Started
+!%CIRegenerating CYL_X_AXIS_RIGHT_FLIP1 feature 6 out of 6 ...
+!%CICYL_X_AXIS_RIGHT_FLIP1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 26 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'CYL_X_AXIS_RIGHT_FLIP1' not changed since last regen.
+!%CIPart 'CYL_X_AXIS_RIGHT_FLIP1' not changed since last regen.
+!26-Nov-26 19:12:48  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_z_axis_front_flip0.prt.1
+!26-Nov-26 19:12:48  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_z_axis_front_flip0.prt.1
+@ trail error  : Creating feature 40 in model CYL_Z_AXIS_FRONT_FLIP0 - error 0
+ 0 
+!Undo: added rec_id 13 type 5304 
+@ trail error  : Creating feature 42 in model CYL_Z_AXIS_FRONT_FLIP0 - error 0
+ 0 
+!Undo: added rec_id 21 type 5304 
+!sket_eps    0.005201033001
+!ProgressBarDlg: Regen Started
+!%CIRegenerating CYL_Z_AXIS_FRONT_FLIP0 feature 6 out of 6 ...
+!%CICYL_Z_AXIS_FRONT_FLIP0 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 27 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'CYL_Z_AXIS_FRONT_FLIP0' not changed since last regen.
+!%CIPart 'CYL_Z_AXIS_FRONT_FLIP0' not changed since last regen.
+!26-Nov-26 19:12:48  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_z_axis_front_flip1.prt.1
+!26-Nov-26 19:12:48  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\cyl_z_axis_front_flip1.prt.1
+@ trail error  : Creating feature 40 in model CYL_Z_AXIS_FRONT_FLIP1 - error 0
+ 0 
+!Undo: added rec_id 14 type 5304 
+@ trail error  : Creating feature 42 in model CYL_Z_AXIS_FRONT_FLIP1 - error 0
+ 0 
+!Undo: added rec_id 22 type 5304 
+!sket_eps    0.001298510721
+!ProgressBarDlg: Regen Started
+!%CIRegenerating CYL_Z_AXIS_FRONT_FLIP1 feature 6 out of 6 ...
+!%CICYL_Z_AXIS_FRONT_FLIP1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 28 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'CYL_Z_AXIS_FRONT_FLIP1' not changed since last regen.
+!%CIPart 'CYL_Z_AXIS_FRONT_FLIP1' not changed since last regen.
+!End of Trail File

@@ -1,0 +1,117 @@
+﻿!trail file version No. 2123
+!Creo  TM  10.0  (c) 2026 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 35924
+!	Application: Creo_Parametric
+!	Start date&time: 2026/11/26  19:03:02
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.1.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\traceback.log
+!end Exit Logger data.
+< 0 1.647407 2552 0 0 1390 2560 0 0 1440 13
+!mem_use INCREASE Blocks 935889, AppSize 13355081, SysSize 34830200
+< 0 1.052000 1052 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1003 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1006 2560 0 0 1440 13
+< 0 0.950000 950 0 0 1006 2560 0 0 1440 13
+< 0 1.409185 2319 0 0 1189 2560 0 0 1440 13
+< 0 1.409185 2182 0 0 1189 2560 0 0 1440 13
+< 0 1.408000 2182 0 0 1188 2560 0 0 1440 13
+< 0 1.417481 2190 0 0 1196 2560 0 0 1440 13
+!%CIWelcome to Creo Parametric 10.0.1.0.
+!AFX datecode: 10.0.1.0-rc.4 2023.05.06
+!AFX exec path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\x86e_win64\afx100.dll
+!AFX text path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\
+< 0 1.417481 2381 0 0 1196 2560 0 0 1440 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): started Pro/E.
+!	exec path: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\dllhost\out\CreoBridge10.DLL
+!	type: asynchronous
+!26-Nov-26 19:03:03  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\mmns_part_solid_abs.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+!26-Nov-26 19:03:03  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\mmns_part_solid_abs.prt
+!26-Nov-26 19:03:03  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_a.prt.2
+!26-Nov-26 19:03:03  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_a.prt.2
+< 0 1.417481 2160 0 0 1196 2560 0 0 1440 13
+!mem_use INCREASE Blocks 1039207, AppSize 47690695, SysSize 70629048
+@ trail error  : Creating feature 40 in model BLK_A - error 0
+ 0 
+!Undo: added rec_id 10 type 5304 
+!sket_eps      0.1490220656
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BLK_A feature 5 out of 5 ...
+!%CIBLK_A regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 16 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BLK_A' not changed since last regen.
+!%CIPart 'BLK_A' not changed since last regen.
+!26-Nov-26 19:03:13  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_b.prt.2
+!26-Nov-26 19:03:13  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_b.prt.2
+@ trail error  : Creating feature 40 in model BLK_B - error 0
+ 0 
+!Undo: added rec_id 11 type 5304 
+@ trail error  : Creating feature 42 in model BLK_B - error 0
+ 0 
+!Undo: added rec_id 19 type 5304 
+!sket_eps      0.0371330755
+!ProgressBarDlg: Regen Started
+~ Timer `` `` `EmbedBrowserTimer`
+!%CIRegenerating BLK_B feature 6 out of 6 ...
+!%CIBLK_B regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 25 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BLK_B' not changed since last regen.
+!%CIPart 'BLK_B' not changed since last regen.
+!26-Nov-26 19:03:13  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_c.prt.2
+!26-Nov-26 19:03:13  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_c.prt.2
+@ trail error  : Creating feature 40 in model BLK_C - error 0
+ 0 
+!Undo: added rec_id 12 type 5304 
+@ trail error  : Creating feature 42 in model BLK_C - error 0
+ 0 
+!Undo: added rec_id 20 type 5304 
+!sket_eps    0.008051658016
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BLK_C feature 6 out of 6 ...
+!%CIBLK_C regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 26 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BLK_C' not changed since last regen.
+!%CIPart 'BLK_C' not changed since last regen.
+!26-Nov-26 19:03:14  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_two.prt.2
+!26-Nov-26 19:03:14  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_two.prt.2
+@ trail error  : Creating feature 40 in model BLK_TWO - error 0
+ 0 
+!Undo: added rec_id 13 type 5304 
+!sket_eps    0.000150338552
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BLK_TWO feature 5 out of 5 ...
+!%CIBLK_TWO regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 19 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BLK_TWO' not changed since last regen.
+@ trail error  : Creating feature 67 in model BLK_TWO - error 0
+ 0 
+!Undo: added rec_id 31 type 5304 
+@ trail error  : Creating feature 69 in model BLK_TWO - error 0
+ 0 
+!Undo: added rec_id 39 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BLK_TWO feature 7 out of 7 ...
+!%CIBLK_TWO regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 45 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BLK_TWO' not changed since last regen.
+!%CIPart 'BLK_TWO' not changed since last regen.
+!End of Trail File

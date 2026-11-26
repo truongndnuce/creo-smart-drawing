@@ -1,0 +1,11 @@
+DLL version 1 loaded in .NET 10.0.14, x64=True
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+cb_start -> 0 (12050 ms) 
+cb_set_workdir -> 0
+cb_new_part -> 0 (157 ms) 
+cb_block -> -1 (231 ms) cb_block failed at 'ProSectionAutodim': -1
+cb_end -> 0 (12 ms) cb_block failed at 'ProSectionAutodim': -1
+exit=1
+WARNING: Name Server is shutting down due to timeout reached.

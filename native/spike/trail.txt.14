@@ -1,0 +1,110 @@
+﻿!trail file version No. 2123
+!Creo  TM  10.0  (c) 2026 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 31556
+!	Application: Creo_Parametric
+!	Start date&time: 2026/11/26  18:53:47
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.1.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\traceback.log
+!end Exit Logger data.
+< 0 1.647407 2552 0 0 1390 2560 0 0 1440 13
+!mem_use INCREASE Blocks 935859, AppSize 13565594, SysSize 34847672
+< 0 1.052000 1052 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1003 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1006 2560 0 0 1440 13
+< 0 0.950000 950 0 0 1006 2560 0 0 1440 13
+< 0 1.409185 2319 0 0 1189 2560 0 0 1440 13
+< 0 1.409185 2182 0 0 1189 2560 0 0 1440 13
+< 0 1.408000 2182 0 0 1188 2560 0 0 1440 13
+< 0 1.417481 2190 0 0 1196 2560 0 0 1440 13
+!%CIWelcome to Creo Parametric 10.0.1.0.
+!AFX datecode: 10.0.1.0-rc.4 2023.05.06
+!AFX exec path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\x86e_win64\afx100.dll
+!AFX text path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\
+< 0 1.417481 2381 0 0 1196 2560 0 0 1440 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): started Pro/E.
+!	exec path: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\dllhost\out\CreoBridge10.DLL
+!	type: asynchronous
+!26-Nov-26 18:53:49  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\mmns_part_solid_abs.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+!26-Nov-26 18:53:49  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\mmns_part_solid_abs.prt
+!26-Nov-26 18:53:49  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_a.prt.1
+!26-Nov-26 18:53:49  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_a.prt.1
+< 0 1.417481 2160 0 0 1196 2560 0 0 1440 13
+!mem_use INCREASE Blocks 1039204, AppSize 47902152, SysSize 70646520
+@ trail error  : Creating feature 40 in model BLK_A - error 0
+ 0 
+!Undo: added rec_id 10 type 5304 
+!sket_eps      0.1490220656
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BLK_A feature 5 out of 5 ...
+!%CIBLK_A regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 16 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BLK_A' not changed since last regen.
+!%CIPart 'BLK_A' not changed since last regen.
+!26-Nov-26 18:53:54  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_b.prt.1
+!26-Nov-26 18:53:54  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_b.prt.1
+@ trail error  : Creating feature 40 in model BLK_B - error 0
+ 0 
+!Undo: added rec_id 11 type 5304 
+!sket_eps    0.002782502872
+!ProgressBarDlg: Regen Started
+!%CIRegenerating BLK_B feature 5 out of 5 ...
+!%CIBLK_B regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 18 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'BLK_B' not changed since last regen.
+~ Timer `` `` `EmbedBrowserTimer`
+!%CIPart 'BLK_B' not changed since last regen.
+!26-Nov-26 18:53:54  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_c.prt.1
+!26-Nov-26 18:53:54  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work4\blk_c.prt.1
+@ trail error  : Creating feature 40 in model BLK_C - error 0
+ 0 
+!Undo: added rec_id 12 type 5304 
+!sket_eps   4.873068886e-05
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style on, Tab style off, Mini Dashboard style off. Feature title : Extrude
+!ODUI session started.
+!%CPSelect a plane or planar surface as the sketching plane, or select a sketch.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1014 459 0 1 2160 1196 2560 1440 382349
+@ stack attr 1073741826
+~ Move `main_dlg_cur` `proe_win` 9 1014 459 0 1 2160 1196 2560 1440 382353
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1014 459 0 0 2160 1196 2560 1440 382453
+@sel_pz_xyz 453.4385451504 519.9362458196 516.4531172102 388.3526129869 -1750.6362120713
+@ sel view 0
+ 272.353768 -90.199566 -71.577969 0.000000 183.807390 -231.626392
+ 115.149326 213.342035 169.297817 500.000000 421.875000 -1664.322880 573.745589 0.000000 0
+@ stack attr 8
+@ stack attr -1 -1  1
+~ Trail `MTB-extrev_feature_popup@EXTRUSION` `MTB-extrev_feature_popup@EXTRUSION` `UIT_TRANSLUCENT` \
+ `NEED_TO_CLOSE`
+~ Trigger `extrev_1_placement.0.0` `PH.section_select_list` `0`
+~ Trigger `extrev_1_placement.0.0` `PH.section_select_list` ``
+~ Trigger `extrev_1_placement.0.0` `PH.section_select_list` `0`
+~ Focus `extrev_1_placement.0.0` `PH.section_select_list`
+~ Select `extrev_1_placement.0.0` `PH.section_select_list` 0
+~ Trigger `extrev_1_placement.0.0` `PH.section_select_list` ``
+~ Activate `extrev_1_placement.0.0` `PH.Sketch`
+!ODUI session starting: Okit widgets are on, Undo/Redo on, Dashboard style off, Tab style on, Mini Dashboard style off. Feature title : Sketch
+!ODUI session started.
+!Command ProCmdEditOneByOne was pushed from the software.
+~ Wheel `main_dlg_cur` `proe_win` 9 501 395 458752 0 2160 1196 2560 1440 389635
+~ Wheel `main_dlg_cur` `proe_win` 9 501 395 458752 0 2160 1196 2560 1440 389692
+~ Move `main_dlg_cur` `proe_win` 9 807 810 33554432 0 2160 1196 2560 1440 390344
+~ Move `main_dlg_cur` `proe_win` 9 815 772 0 0 2160 1196 2560 1440 390740
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

@@ -1,0 +1,9 @@
+﻿{
+  "Projects": [
+    { "Id": "p-demo", "Code": "DEMO", "Name": "Demo (Creo)", "CadSystem": "creo",
+      "Members": { "dev": 4, "viewer": 1 }, "EnabledProducts": [ "box", "transformer" ] }
+  ],
+  "WorkerKeys": { "dev-worker-key": "creo-worker-1" }
+}
+
+

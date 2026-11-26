@@ -1,0 +1,11 @@
+﻿bin/
+obj/
+.vs/
+*.user
+node_modules/
+data/
+*.obj
+*.pdb
+
+src/Cadflow.Api/data/
+fe/dist/

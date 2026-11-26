@@ -1,0 +1,354 @@
+﻿!trail file version No. 2123
+!Creo  TM  10.0  (c) 2026 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 31588
+!	Application: Creo_Parametric
+!	Start date&time: 2026/11/26  22:08:50
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.1.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\traceback.log
+!end Exit Logger data.
+< 0 1.647407 2552 0 0 1390 2560 0 0 1440 13
+!mem_use INCREASE Blocks 935894, AppSize 13503663, SysSize 34847672
+< 0 1.052000 1052 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1000 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1003 2560 0 0 1440 13
+< 0 1.055000 1055 0 0 1006 2560 0 0 1440 13
+< 0 0.950000 950 0 0 1006 2560 0 0 1440 13
+< 0 1.409185 2319 0 0 1189 2560 0 0 1440 13
+< 0 1.409185 2182 0 0 1189 2560 0 0 1440 13
+< 0 1.408000 2182 0 0 1188 2560 0 0 1440 13
+< 0 1.417481 2190 0 0 1196 2560 0 0 1440 13
+!%CIWelcome to Creo Parametric 10.0.1.0.
+!AFX datecode: 10.0.1.0-rc.4 2023.05.06
+!AFX exec path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\x86e_win64\afx100.dll
+!AFX text path: C:\Program Files\PTC\Creo 10.0.1.0\Common Files\afx\
+< 0 1.417481 2381 0 0 1196 2560 0 0 1440 13
+!Application (UNNAMED): running IPC-mode user_initialize
+!Application (UNNAMED): returned from IPC-mode user_initialize; status is 0
+!Application (UNNAMED): started Pro/E.
+!	exec path: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\tools\CreoGeaSmoke\bin\Release\net10.0\CreoBridge10.DLL
+!	type: asynchronous
+!26-Nov-26 22:08:51  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\mmns_part_solid_abs.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+!26-Nov-26 22:08:51  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\mmns_part_solid_abs.prt
+!26-Nov-26 22:08:51  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\smoke1.prt.4
+!26-Nov-26 22:08:51  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\smoke1.prt.4
+< 0 1.417481 2160 0 0 1196 2560 0 0 1440 13
+!mem_use INCREASE Blocks 1039205, AppSize 47839013, SysSize 70646520
+@ trail error  : Creating feature 40 in model SMOKE1 - error 0
+ 0 
+!Undo: added rec_id 10 type 5304 
+!sket_eps      0.1490220656
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE1 feature 5 out of 5 ...
+!%CISMOKE1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 16 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE1' not changed since last regen.
+@ trail error  : Creating feature 67 in model SMOKE1 - error 0
+ 0 
+!Undo: added rec_id 28 type 5304 
+@ trail error  : Creating feature 69 in model SMOKE1 - error 0
+ 0 
+!Undo: added rec_id 36 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE1 feature 7 out of 7 ...
+!%CISMOKE1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 42 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE1' not changed since last regen.
+@ trail error  : Creating feature 95 in model SMOKE1 - error 0
+ 0 
+!Undo: added rec_id 52 type 5304 
+@ trail error  : Creating feature 97 in model SMOKE1 - error 0
+ 0 
+!Undo: added rec_id 60 type 5304 
+!sket_eps      0.1769969044
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE1 feature 9 out of 9 ...
+!%CISMOKE1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 66 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE1' not changed since last regen.
+@ trail error  : Creating feature 131 in model SMOKE1 - error 0
+ 0 
+!Undo: added rec_id 77 type 5304 
+@ trail error  : Creating feature 133 in model SMOKE1 - error 0
+ 0 
+!Undo: added rec_id 85 type 5304 
+!sket_eps      0.1832222023
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE1 feature 11 out of 11 ...
+!%CISMOKE1 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 91 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE1' not changed since last regen.
+!%CIPart 'SMOKE1' not changed since last regen.
+!26-Nov-26 22:09:02  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\smoke2.prt.3
+!26-Nov-26 22:09:02  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\smoke2.prt.3
+@ trail error  : Creating feature 40 in model SMOKE2 - error 0
+ 0 
+!Undo: added rec_id 11 type 5304 
+!sket_eps    0.003170080451
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE2 feature 5 out of 5 ...
+!%CISMOKE2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 17 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE2' not changed since last regen.
+~ Timer `` `` `EmbedBrowserTimer`
+@ trail error  : Creating feature 115 in model SMOKE2 - error 0
+ 0 
+!Undo: added rec_id 31 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE2 feature 6 out of 6 ...
+!%CISMOKE2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 37 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE2' not changed since last regen.
+@ trail error  : Creating feature 184 in model SMOKE2 - error 0
+ 0 
+!Undo: added rec_id 49 type 5304 
+@ trail error  : Creating feature 186 in model SMOKE2 - error 0
+ 0 
+!Undo: added rec_id 57 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE2 feature 8 out of 8 ...
+!%CISMOKE2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 63 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE2' not changed since last regen.
+@ trail error  : Creating feature 279 in model SMOKE2 - error 0
+ 0 
+!Undo: added rec_id 75 type 5304 
+@ trail error  : Creating feature 281 in model SMOKE2 - error 0
+ 0 
+!Undo: added rec_id 83 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE2 feature 10 out of 10 ...
+!%CISMOKE2 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 89 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE2' not changed since last regen.
+!%CIPart 'SMOKE2' not changed since last regen.
+!26-Nov-26 22:09:03  Start C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\smoke3.prt.2
+!26-Nov-26 22:09:03  End   C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike\out\work5\smoke3.prt.2
+@ trail error  : Creating feature 40 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 12 type 5304 
+!sket_eps     0.02132907869
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 5 out of 5 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 18 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 67 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 30 type 5304 
+@ trail error  : Creating feature 69 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 38 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 7 out of 7 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 44 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 106 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 56 type 5304 
+@ trail error  : Creating feature 108 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 64 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 9 out of 9 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 70 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 145 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 82 type 5304 
+@ trail error  : Creating feature 147 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 90 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 11 out of 11 ...
+!%CWWARNING: EXTRUDE_4 is entirely outside the model.
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 96 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 174 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 108 type 5304 
+@ trail error  : Creating feature 176 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 116 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 13 out of 13 ...
+!%CWWARNING: EXTRUDE_5 is entirely outside the model.
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 122 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 203 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 134 type 5304 
+@ trail error  : Creating feature 205 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 142 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 15 out of 15 ...
+!%CWWARNING: EXTRUDE_6 is entirely outside the model.
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 148 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 232 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 160 type 5304 
+@ trail error  : Creating feature 234 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 168 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 17 out of 17 ...
+!%CWWARNING: EXTRUDE_7 is entirely outside the model.
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 174 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 254 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 185 type 5304 
+@ trail error  : Creating feature 256 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 193 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 19 out of 19 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 199 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 293 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 210 type 5304 
+@ trail error  : Creating feature 295 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 218 type 5304 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 21 out of 21 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 224 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 332 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 235 type 5304 
+@ trail error  : Creating feature 334 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 243 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 23 out of 23 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 249 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 655 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 278 type 5304 
+@ trail error  : Creating feature 657 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 286 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 25 out of 25 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 292 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 978 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 321 type 5304 
+@ trail error  : Creating feature 980 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 329 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 27 out of 27 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 335 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 1301 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 364 type 5304 
+@ trail error  : Creating feature 1303 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 372 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 29 out of 29 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 378 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 1624 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 407 type 5304 
+@ trail error  : Creating feature 1626 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 415 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 31 out of 31 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 421 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+@ trail error  : Creating feature 1947 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 450 type 5304 
+@ trail error  : Creating feature 1949 in model SMOKE3 - error 0
+ 0 
+!Undo: added rec_id 458 type 5304 
+!%CI-- ALIGNED -- 
+!ProgressBarDlg: Regen Started
+!%CIRegenerating SMOKE3 feature 33 out of 33 ...
+!%CISMOKE3 regeneration completed successfully.
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 464 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'SMOKE3' not changed since last regen.
+!%CIPart 'SMOKE3' not changed since last regen.
+!End of Trail File

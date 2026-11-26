@@ -1,0 +1,18 @@
+[33mmain: thread_init: already added for thread
+[;m2026-11-26T18:33:41Z [70,399ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,400ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,400ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,400ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,400ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,400ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,401ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,401ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,401ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,401ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,402ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,402ms] [Error] [omni.usd] UsdContext busy
+2026-11-26T18:33:41Z [70,402ms] [Error] [omni.usd] UsdContext busy
+Warning: Possible version incompatibility. Attempting to load omni::fabric::IStageReaderWriter with version v0.16 against v0.14.
+2026-11-26T18:36:18Z [227,966ms] [Error] [omni.kit.livestream.webrtc.plugin] NVST Error: NVST_R_BUSY
+2026-11-26T18:36:18Z [227,983ms] [Error] [omni.kit.livestream.webrtc.plugin] NVST Error: NVST_R_BUSY
+2026-11-26T18:36:18Z [228,000ms] [Error] [omni.kit.livestream.webrtc.plugin] NVST Error: NVST_R_BUSY

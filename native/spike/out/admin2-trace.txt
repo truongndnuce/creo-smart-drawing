@@ -1,0 +1,2 @@
+[26/11/2026 15:50:29,75] run2-admin started 
+cwd=C:\Users\Admin\Documents\GitHub\creo-smart-drawing\native\spike 

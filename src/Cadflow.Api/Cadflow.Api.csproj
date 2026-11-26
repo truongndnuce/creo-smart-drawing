@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <!-- DB password lives in the machine user-secrets, outside the repo: dotnet user-secrets set "ConnectionStrings:CadflowCreo" "Host=localhost;Database=cadflow_creo;Username=admin;Password=..." -->
+    <UserSecretsId>cadflow-creo-api</UserSecretsId>
+  </PropertyGroup>
+  <!-- Outermost layer: endpoints, auth, DI. No business logic here. -->
+  <ItemGroup>
+    <ProjectReference Include="..\Cadflow.Application\Cadflow.Application.csproj" />
+    <ProjectReference Include="..\Cadflow.Infrastructure\Cadflow.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
+

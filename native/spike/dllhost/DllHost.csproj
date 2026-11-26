@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Spike 3: proves CreoBridge10.dll (Toolkit async) can be driven from .NET via P/Invoke. Not part of the solution. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+</Project>

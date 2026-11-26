@@ -1,0 +1,36 @@
+23:09:28 Worker started, session=native
+23:11:46 Job 091a6ebc transformer/generate
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+23:12:03 Job 091a6ebc done, 2 files
+00:02:25 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:02:31 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:02:37 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:02:43 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:02:49 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:02:55 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:01 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:08 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:14 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:20 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:26 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:32 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:38 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:44 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:50 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:03:56 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:02 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:08 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:15 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:21 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:27 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:33 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:39 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:45 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:51 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:04:57 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:05:03 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:05:09 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+00:05:15 Error: No connection could be made because the target machine actively refused it. (localhost:18090)
+^C

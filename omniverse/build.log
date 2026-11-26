@@ -1,0 +1,788 @@
+﻿.\repo.bat : Setting user environment variable PM_PACKAGES_ROOT to C:\packman-repo
+At line:1 char:502
++ ... omniverse\src\kit-app-template-main; .\repo.bat build -r 2>&1 | Tee-O ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Setting user en...C:\packman-repo:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+>>> Fetching all dependencies.
+>>> Before Pull Commands Step. Running 'powershell -Command New-Item -ItemType Directory -Path C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/source/apps -ErrorAction SilentlyContinue ; Write-Host 'Done''...
+Done
+>>> After Pull Commands Step. Running 'C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/repo.bat precache_exts -c release'...
+Setting env var: OMNI_TRUSTED_CERTIFICATE=ALL
+running kit for app precache, cmd: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\kit\kit.exe C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\apps\creo_viewer.kit --allow-root --portable --ext-precache-mode --/crashreporter/gatherUserStory=0 --/app/settings/persistent=0 --/app/settings/loadUserConfig=0 --/app/extensions/generateVersionLock=1 --/app/extensions/parallelPullEnabled=1 --/app/enableStdoutOutput=1 --/app/extensions/detailedSolverExplanation=1 --/app/extensions/registryEnabled=1 --/app/extensions/mkdirExtFolders=0 --/app/extensions/registryCacheFull='C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache' --/log/flushStandardStreamOutput=1 --/app/extensions/target/config=release --ext-folder C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\extensions --ext-folder C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\apps --portable-root C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release --/app/extensions/generateVersionLockSkipLocalExts=1
+2026-11-26T18:08:45Z [Info] [carb] Logging to file: C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/logs/Kit/creo_viewer/0.1/kit_20261127_010845.log
+[0.197s] Failed to solve some dependencies locally, syncing with extension registry...
+[0.198s] [ext: omni.kit.async_engine-0.0.6] startup
+[0.224s] [ext: omni.client.lib-1.1.1] startup
+[0.230s] [ext: omni.kit.registry.nucleus-0.0.0] startup
+I: Initializing Version 2.75.1-release.7540+gl.d3c5c5b8
+I: Client ID: CKF8PZTW
+I: ThreadId(02) hub_client::client::Client::new Launching client mode=Shared with_cleaner=false cache_path=None cache_size=None
+I: ThreadId(03) launch self=Launcher { discovery_lock: RwLock { lock: RwLock { inner: File { handle: 0x604, path: "\\\\?\\C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin.lock" } } }, mode: Shared, with_cleaner: false, config_file: "C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin-C7DF400.config.json" } cmd="hub.exe" "--mode=shared" "--write-config" "C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin-C7DF400.config.json" "--"
+I: Not using Hub: Hub not found
+I: Successfully created Azure provider for https://ovextensionsprod.blob.core.windows.net
+[2.691s] Pulling extension: `omni.activity.core-1.0.4` from the registry.
+[2.691s] Pulling extension: `omni.assets.plugins-0.0.0` from the registry.
+[2.691s] Pulling extension: `omni.hsscclient-1.1.4` from the registry.
+[2.691s] Pulling extension: `omni.gpu_foundation-0.0.0` from the registry.
+[2.691s] Pulling extension: `omni.grpc.lib-1.0.1` from the registry.
+[2.691s] Pulling extension: `omni.protobuf.lib-1.0.1` from the registry.
+[2.691s] Pulling extension: `omni.metrics.core-0.0.3` from the registry.
+[2.691s] Pulling extension: `omni.blobkey-1.1.2` from the registry.
+[2.691s] Pulling extension: `omni.activity.profiler-1.0.4` from the registry.
+[2.691s] Pulling extension: `omni.datastore-0.0.0` from the registry.
+[2.691s] Pulling extension: `omni.gpu_foundation.shadercache.d3d12-1.0.0` from the registry.
+[2.691s] Pulling extension: `omni.stats-1.0.1` from the registry.
+[2.691s] Pulling extension: `omni.ujitso.default-1.0.0` from the registry.
+[2.691s] Pulling extension: `omni.iray.libs-0.0.1` from the registry.
+[2.691s] Pulling extension: `omni.client-1.3.0` from the registry.
+[2.691s] Pulling extension: `omni.kit.pipapi-0.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.ujitso.default-0302f56ae9385403.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpjhjz37f_/omni.ujitso.default-1.0.0+33a8249d.wx64.r.cp312.zip'...
+I: Successfully created S3 provider for https://d4i3qtqj3r0z5.cloudfront.net
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.gpu_foundation.shadercache.d3d12-3bd006fa5983f6fd.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpw3gvkyp_/omni.gpu_foundation.shadercache.d3d12-1.0.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 23936] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.gpu_foundation-5510623c99e9d3b3.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp47hdyo5u/omni.gpu_foundation-0.0.0+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 36972] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.protobuf.lib-8af3e8ff389a01af.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp5eewndkn/omni.protobuf.lib-1.0.1+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 29528] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.assets.plugins-2a9787efacf41a0a.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpszcwge76/omni.assets.plugins-0.0.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.client-6bd28be7f92e193b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp7m1_utmy/omni.client-1.3.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.activity.core-3a34e7d5fe5c16c6.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpzvhsl4yt/omni.activity.core-1.0.4+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 3216] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.hsscclient-65beb071529fd853.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp80b46ol4/omni.hsscclient-1.1.4+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.stats-61a11f382ca9b4a5.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmper4wl0qb/omni.stats-1.0.1+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.activity.profiler-80664cb4ec2dff8b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpkex6r_rt/omni.activity.profiler-1.0.4+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 15636] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.datastore-cbabdefecaa85736.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpljfn4omd/omni.datastore-0.0.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.blobkey-0b90f138e257fca2.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp_54xlllo/omni.blobkey-1.1.2+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 36868] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.grpc.lib-a7dd4ea8c9fed337.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp7eqmq_5h/omni.grpc.lib-1.0.1+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.metrics.core-e65bb4623c81cf86.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpc4p4bff8/omni.metrics.core-0.0.3+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.pipapi-0ec1c5b8937912f1.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp5nk3ci2h/omni.kit.pipapi-0.0.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 33072] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.iray.libs-18e7851028594ad4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpqqxc8gse/omni.iray.libs-0.0.1+33a8249d.wx64.r.zip'...
+2026-11-26T18:08:49Z [3,995ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:08:50Z [4,995ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 3216] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp80b46ol4/omni.hsscclient-1.1.4+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hsscclient-65beb071529fd853
+[omni.kit.registry.nucleus] [tid: 29528] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpszcwge76/omni.assets.plugins-0.0.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.assets.plugins-2a9787efacf41a0a
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpzvhsl4yt/omni.activity.core-1.0.4+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.core-3a34e7d5fe5c16c6
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp5nk3ci2h/omni.kit.pipapi-0.0.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.pipapi-0ec1c5b8937912f1
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.pipapi-0.0.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.pipapi-0ec1c5b8937912f1
+[omni.kit.registry.nucleus] [tid: 3216] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.hsscclient-1.1.4+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hsscclient-65beb071529fd853
+[omni.kit.registry.nucleus] [tid: 29528] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.assets.plugins-0.0.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.assets.plugins-2a9787efacf41a0a
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.activity.core-1.0.4+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.core-3a34e7d5fe5c16c6
+[omni.kit.registry.nucleus]: pruning global extensions cache: C:/Users/Admin/AppData/Local/ov/data/exts/v2
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp_54xlllo/omni.blobkey-1.1.2+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.blobkey-0b90f138e257fca2
+[omni.kit.registry.nucleus]: global extensions cache pruned: 0 links removed, 0 extensions removed
+[5.677s] Extension: `omni.hsscclient-1.1.4` was installed.
+[5.677s] Pulling extension: `omni.appwindow-1.2.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 3216] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.appwindow-3582a8eae140c2ee.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmph8wkait1/omni.appwindow-1.2.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.blobkey-1.1.2+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.blobkey-0b90f138e257fca2
+[5.683s] Extension: `omni.kit.pipapi-0.0.0` was installed.
+[5.683s] Pulling extension: `omni.kit.mainwindow-1.0.4` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.mainwindow-4af3e543111f552f.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp1i57mbod/omni.kit.mainwindow-1.0.4+33a8249d.zip'...
+[5.690s] Extension: `omni.assets.plugins-0.0.0` was installed.
+[5.690s] Pulling extension: `omni.usd.schema.anim-0.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 29528] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.anim-ffd7ed609d2d293a.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpsv0ttqil/omni.usd.schema.anim-0.0.1+33a8249d.wx64.r.cp312.zip'...
+[5.697s] Extension: `omni.activity.core-1.0.4` was installed.
+[5.697s] Pulling extension: `omni.usd.schema.geospatial-0.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.geospatial-23dd9ba8200a456f.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpb5oaoink/omni.usd.schema.geospatial-0.0.1+33a8249d.wx64.r.cp312.zip'...
+[5.704s] Extension: `omni.blobkey-1.1.2` was installed.
+[5.704s] Pulling extension: `omni.activity.pump-1.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.activity.pump-f1325ceb5e13bb8d.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp5dag1r5l/omni.activity.pump-1.0.1+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpc4p4bff8/omni.metrics.core-0.0.3+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.metrics.core-e65bb4623c81cf86
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.metrics.core-0.0.3+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.metrics.core-e65bb4623c81cf86
+[5.748s] Extension: `omni.metrics.core-0.0.3` was installed.
+[5.748s] Pulling extension: `omni.cubric-0.1.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.cubric-c27b859b98a228b9.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpdccun8yn/omni.cubric-0.1.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmper4wl0qb/omni.stats-1.0.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.stats-61a11f382ca9b4a5
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp7m1_utmy/omni.client-1.3.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.client-6bd28be7f92e193b
+[omni.kit.registry.nucleus] [tid: 36972] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp5eewndkn/omni.protobuf.lib-1.0.1+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.protobuf.lib-8af3e8ff389a01af
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpw3gvkyp_/omni.gpu_foundation.shadercache.d3d12-1.0.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.gpu_foundation.shadercache.d3d12-3bd006fa5983f6fd
+[omni.kit.registry.nucleus] [tid: 36868] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp7eqmq_5h/omni.grpc.lib-1.0.1+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.grpc.lib-a7dd4ea8c9fed337
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.client-1.3.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.client-6bd28be7f92e193b
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.stats-1.0.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.stats-61a11f382ca9b4a5
+[omni.kit.registry.nucleus] [tid: 36972] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.protobuf.lib-1.0.1+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.protobuf.lib-8af3e8ff389a01af
+[omni.kit.registry.nucleus] [tid: 36868] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.grpc.lib-1.0.1+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.grpc.lib-a7dd4ea8c9fed337
+[5.838s] Extension: `omni.client-1.3.0` was installed.
+[5.838s] Pulling extension: `omni.kit.widget.connection_manager-1.0.4` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.connection_manager-75e092bf29f4c8be.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp2n6bfkm9/omni.kit.widget.connection_manager-1.0.4+33a8249d.zip'...
+[5.844s] Extension: `omni.stats-1.0.1` was installed.
+[5.845s] Pulling extension: `omni.kit.menu.utils-2.2.8` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.menu.utils-96cafd68e2d2a90f.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpg1jneksb/omni.kit.menu.utils-2.2.8+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.gpu_foundation.shadercache.d3d12-1.0.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.gpu_foundation.shadercache.d3d12-3bd006fa5983f6fd
+[5.852s] Extension: `omni.protobuf.lib-1.0.1` was installed.
+[5.852s] Pulling extension: `omni.kit.widget.filebrowser-2.14.6` from the registry.
+[omni.kit.registry.nucleus] [tid: 36972] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.filebrowser-8d0c71207186645b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp10ald68t/omni.kit.widget.filebrowser-2.14.6+33a8249d.zip'...
+[5.861s] Extension: `omni.grpc.lib-1.0.1` was installed.
+[5.861s] Pulling extension: `omni.kit.widget.options_menu-1.1.7` from the registry.
+[omni.kit.registry.nucleus] [tid: 36868] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.options_menu-b7af4d90d3cc2293.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp_zgqls2w/omni.kit.widget.options_menu-1.1.7+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpkex6r_rt/omni.activity.profiler-1.0.4+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.profiler-80664cb4ec2dff8b
+[5.867s] Extension: `omni.gpu_foundation.shadercache.d3d12-1.0.0` was installed.
+[5.867s] Pulling extension: `omni.kit.widget.options_button-1.0.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.options_button-6f2ce107bfa1f176.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmplj6olbup/omni.kit.widget.options_button-1.0.3+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.activity.profiler-1.0.4+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.profiler-80664cb4ec2dff8b
+[5.902s] Extension: `omni.activity.profiler-1.0.4` was installed.
+[5.902s] Pulling extension: `omni.ui.scene-2.1.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.ui.scene-5a888fea5022de02.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp92p58e03/omni.ui.scene-2.1.1+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpjhjz37f_/omni.ujitso.default-1.0.0+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ujitso.default-0302f56ae9385403
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.ujitso.default-1.0.0+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ujitso.default-0302f56ae9385403
+[5.974s] Extension: `omni.ujitso.default-1.0.0` was installed.
+[5.974s] Pulling extension: `omni.kit.viewport.window-110.0.6` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.viewport.window-6e0e42df65b026eb.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpww4x69_1/omni.kit.viewport.window-110.0.6+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp1i57mbod/omni.kit.mainwindow-1.0.4+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.mainwindow-4af3e543111f552f
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.mainwindow-1.0.4+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.mainwindow-4af3e543111f552f
+[omni.kit.registry.nucleus] [tid: 15636] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpljfn4omd/omni.datastore-0.0.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.datastore-cbabdefecaa85736
+[6.033s] Extension: `omni.kit.mainwindow-1.0.4` was installed.
+[6.033s] Pulling extension: `omni.graph.core-3.1.8` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.core-dd61c3cbcd7d3025.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpafti_8on/omni.graph.core-3.1.8+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpb5oaoink/omni.usd.schema.geospatial-0.0.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.geospatial-23dd9ba8200a456f
+[omni.kit.registry.nucleus] [tid: 15636] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.datastore-0.0.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.datastore-cbabdefecaa85736
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.geospatial-0.0.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.geospatial-23dd9ba8200a456f
+[6.065s] Extension: `omni.datastore-0.0.0` was installed.
+[6.065s] Pulling extension: `omni.kit.quicklayout-1.0.12` from the registry.
+[omni.kit.registry.nucleus] [tid: 15636] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.quicklayout-039c77cf88d86d7f.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpghr6lowh/omni.kit.quicklayout-1.0.12+33a8249d.zip'...
+[6.080s] Extension: `omni.usd.schema.geospatial-0.0.1` was installed.
+[6.080s] Pulling extension: `omni.kit.renderer.core-1.3.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.renderer.core-b70c8cf48d129dd8.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpszr3doho/omni.kit.renderer.core-1.3.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp2n6bfkm9/omni.kit.widget.connection_manager-1.0.4+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.connection_manager-75e092bf29f4c8be
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.connection_manager-1.0.4+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.connection_manager-75e092bf29f4c8be
+[6.311s] Extension: `omni.kit.widget.connection_manager-1.0.4` was installed.
+[6.311s] Pulling extension: `omni.kit.uiapp-0.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.uiapp-9c47f1d908b37db2.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpz9epv28a/omni.kit.uiapp-0.0.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 3216] unpacking: C:/Users/Admin/AppData/Local/Temp/tmph8wkait1/omni.appwindow-1.2.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.appwindow-3582a8eae140c2ee
+[omni.kit.registry.nucleus] [tid: 36868] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp_zgqls2w/omni.kit.widget.options_menu-1.1.7+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.options_menu-b7af4d90d3cc2293
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp5dag1r5l/omni.activity.pump-1.0.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.pump-f1325ceb5e13bb8d
+[omni.kit.registry.nucleus] [tid: 3216] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.appwindow-1.2.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.appwindow-3582a8eae140c2ee
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.activity.pump-1.0.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.pump-f1325ceb5e13bb8d
+[omni.kit.registry.nucleus] [tid: 36868] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.options_menu-1.1.7+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.options_menu-b7af4d90d3cc2293
+[6.434s] Extension: `omni.appwindow-1.2.2` was installed.
+[6.434s] Pulling extension: `omni.usd.core-1.10.45` from the registry.
+[omni.kit.registry.nucleus] [tid: 3216] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.core-850b2b900025a60c.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpzpkrud1k/omni.usd.core-1.10.45+33a8249d.wx64.r.zip'...
+[6.443s] Extension: `omni.activity.pump-1.0.1` was installed.
+[6.443s] Pulling extension: `omni.usd.schema.physical_lighting-0.1.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.physical_lighting-bcabe1866ce403c4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpb7pns5fe/omni.usd.schema.physical_lighting-0.1.0+33a8249d.wx64.r.cp312.zip'...
+[6.452s] Extension: `omni.kit.widget.options_menu-1.1.7` was installed.
+[6.452s] Pulling extension: `omni.hydra.rtx.shadercache.d3d12-1.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 36868] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.hydra.rtx.shadercache.d3d12-c56d7a4846411202.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpsbvf1xbr/omni.hydra.rtx.shadercache.d3d12-1.0.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpg1jneksb/omni.kit.menu.utils-2.2.8+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.menu.utils-96cafd68e2d2a90f
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.menu.utils-2.2.8+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.menu.utils-96cafd68e2d2a90f
+[6.528s] Extension: `omni.kit.menu.utils-2.2.8` was installed.
+[6.528s] Pulling extension: `omni.kit.widget.path_field-2.0.14` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.path_field-a29f1e91bc317be3.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp8rzi50jz/omni.kit.widget.path_field-2.0.14+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 36972] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp10ald68t/omni.kit.widget.filebrowser-2.14.6+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.filebrowser-8d0c71207186645b
+[omni.kit.registry.nucleus] [tid: 15636] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpghr6lowh/omni.kit.quicklayout-1.0.12+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.quicklayout-039c77cf88d86d7f
+[omni.kit.registry.nucleus] [tid: 29528] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpsv0ttqil/omni.usd.schema.anim-0.0.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.anim-ffd7ed609d2d293a
+[omni.kit.registry.nucleus] [tid: 36972] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.filebrowser-2.14.6+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.filebrowser-8d0c71207186645b
+[omni.kit.registry.nucleus] [tid: 15636] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.quicklayout-1.0.12+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.quicklayout-039c77cf88d86d7f
+[6.707s] Extension: `omni.kit.widget.filebrowser-2.14.6` was installed.
+[6.707s] Pulling extension: `omni.kit.widget.nucleus_connector-2.4.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 36972] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.nucleus_connector-c727e451a8759cfc.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpaoa1yip0/omni.kit.widget.nucleus_connector-2.4.0+33a8249d.zip'...
+[6.714s] Extension: `omni.kit.quicklayout-1.0.12` was installed.
+[6.714s] Pulling extension: `omni.kit.viewport.registry-104.0.6` from the registry.
+[omni.kit.registry.nucleus] [tid: 15636] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.viewport.registry-1576b2497df3b522.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp0xyfw8zz/omni.kit.viewport.registry-104.0.6+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 29528] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.anim-0.0.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.anim-ffd7ed609d2d293a
+[6.752s] Extension: `omni.usd.schema.anim-0.0.1` was installed.
+[6.752s] Pulling extension: `omni.kit.widget.viewport-110.0.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 29528] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.viewport-e269c377a4561eb7.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp15q5z937/omni.kit.widget.viewport-110.0.3+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpz9epv28a/omni.kit.uiapp-0.0.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.uiapp-9c47f1d908b37db2
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpdccun8yn/omni.cubric-0.1.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.cubric-c27b859b98a228b9
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.uiapp-0.0.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.uiapp-9c47f1d908b37db2
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.cubric-0.1.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.cubric-c27b859b98a228b9
+[6.814s] Extension: `omni.kit.uiapp-0.0.0` was installed.
+[6.814s] Pulling extension: `omni.mdl.neuraylib-0.2.23` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.mdl.neuraylib-04e008e049f12660.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp0cfpxw_0/omni.mdl.neuraylib-0.2.23+33a8249d.wx64.r.cp312.zip'...
+[6.824s] Extension: `omni.cubric-0.1.0` was installed.
+[6.824s] Pulling extension: `omni.kit.exec.core-0.13.7` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.exec.core-2dea39e8d9dd4dea.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpauiglbxg/omni.kit.exec.core-0.13.7+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpb7pns5fe/omni.usd.schema.physical_lighting-0.1.0+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.physical_lighting-bcabe1866ce403c4
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp8rzi50jz/omni.kit.widget.path_field-2.0.14+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.path_field-a29f1e91bc317be3
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.path_field-2.0.14+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.path_field-a29f1e91bc317be3
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.physical_lighting-0.1.0+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.physical_lighting-bcabe1866ce403c4
+[7.070s] Extension: `omni.kit.widget.path_field-2.0.14` was installed.
+[7.070s] Pulling extension: `omni.kit.audiodeviceenum-1.0.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.audiodeviceenum-fe2b2da4aac0f371.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpwf4gkbkp/omni.kit.audiodeviceenum-1.0.2+33a8249d.wx64.r.cp312.zip'...
+[7.077s] Extension: `omni.usd.schema.physical_lighting-0.1.0` was installed.
+[7.077s] Pulling extension: `omni.kit.usd_undo-0.1.8` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.usd_undo-68aa1898d3cdf57b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpqeyimpev/omni.kit.usd_undo-0.1.8+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpww4x69_1/omni.kit.viewport.window-110.0.6+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.viewport.window-6e0e42df65b026eb
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpszr3doho/omni.kit.renderer.core-1.3.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.core-b70c8cf48d129dd8
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.renderer.core-1.3.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.core-b70c8cf48d129dd8
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.viewport.window-110.0.6+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.viewport.window-6e0e42df65b026eb
+[omni.kit.registry.nucleus] [tid: 36972] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpaoa1yip0/omni.kit.widget.nucleus_connector-2.4.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.nucleus_connector-c727e451a8759cfc
+[omni.kit.registry.nucleus] [tid: 29528] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp15q5z937/omni.kit.widget.viewport-110.0.3+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.viewport-e269c377a4561eb7
+[7.161s] Extension: `omni.kit.renderer.core-1.3.2` was installed.
+[7.161s] Pulling extension: `omni.index.libs-392300.2120.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.index.libs-9ac0abdd7947e3a0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpgrrhab9s/omni.index.libs-392300.2120.0+33a8249d.wx64.r.zip'...
+[7.175s] Extension: `omni.kit.viewport.window-110.0.6` was installed.
+[7.175s] Pulling extension: `omni.ujitso.client-0.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.ujitso.client-0777811883fec0c3.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpwzlk_eqh/omni.ujitso.client-0.0.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 36972] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.nucleus_connector-2.4.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.nucleus_connector-c727e451a8759cfc
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpafti_8on/omni.graph.core-3.1.8+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.core-dd61c3cbcd7d3025
+[omni.kit.registry.nucleus] [tid: 29528] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.viewport-110.0.3+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.viewport-e269c377a4561eb7
+[7.207s] Extension: `omni.kit.widget.nucleus_connector-2.4.0` was installed.
+[7.207s] Pulling extension: `omni.kit.clipboard-1.1.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 36972] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.clipboard-41d5dbcf80c36e57.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp6s3jk0qa/omni.kit.clipboard-1.1.1+33a8249d.wx64.r.cp312.zip'...
+[7.214s] Extension: `omni.kit.widget.viewport-110.0.3` was installed.
+[7.214s] Pulling extension: `omni.kit.stage_template.core-1.1.23` from the registry.
+[omni.kit.registry.nucleus] [tid: 29528] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.stage_template.core-536066d8b139c7d4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp194fzfw5/omni.kit.stage_template.core-1.1.23+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.core-3.1.8+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.core-dd61c3cbcd7d3025
+[7.239s] Extension: `omni.graph.core-3.1.8` was installed.
+[7.239s] Pulling extension: `omni.kit.manipulator.selection-110.1.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.manipulator.selection-0bf735967fc19a2b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmptw84saor/omni.kit.manipulator.selection-110.1.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmplj6olbup/omni.kit.widget.options_button-1.0.3+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.options_button-6f2ce107bfa1f176
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.options_button-1.0.3+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.options_button-6f2ce107bfa1f176
+[7.402s] Extension: `omni.kit.widget.options_button-1.0.3` was installed.
+[7.402s] Pulling extension: `omni.kit.renderer.capture-2.0.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.renderer.capture-ea231a2d73eefb65.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp61mottha/omni.kit.renderer.capture-2.0.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpqeyimpev/omni.kit.usd_undo-0.1.8+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.usd_undo-68aa1898d3cdf57b
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpauiglbxg/omni.kit.exec.core-0.13.7+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.exec.core-2dea39e8d9dd4dea
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.usd_undo-0.1.8+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.usd_undo-68aa1898d3cdf57b
+[7.603s] Extension: `omni.kit.usd_undo-0.1.8` was installed.
+[7.603s] Pulling extension: `omni.usd.schema.render_settings.rtx-1.0.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.render_settings.rtx-19b875d936da9541.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp6k2hgqys/omni.usd.schema.render_settings.rtx-1.0.3+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.exec.core-0.13.7+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.exec.core-2dea39e8d9dd4dea
+[7.627s] Extension: `omni.kit.exec.core-0.13.7` was installed.
+[7.627s] Pulling extension: `omni.usd.schema.usd_particle_field-1.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.usd_particle_field-4d7e29391e8c427b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpmge2b865/omni.usd.schema.usd_particle_field-1.0.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 29528] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp194fzfw5/omni.kit.stage_template.core-1.1.23+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.stage_template.core-536066d8b139c7d4
+[omni.kit.registry.nucleus] [tid: 29528] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.stage_template.core-1.1.23+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.stage_template.core-536066d8b139c7d4
+[7.692s] Extension: `omni.kit.stage_template.core-1.1.23` was installed.
+[7.692s] Pulling extension: `omni.kit.commands-1.6.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 29528] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.commands-b66b1bb698206597.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmptxdksycj/omni.kit.commands-1.6.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmptw84saor/omni.kit.manipulator.selection-110.1.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.manipulator.selection-0bf735967fc19a2b
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.manipulator.selection-110.1.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.manipulator.selection-0bf735967fc19a2b
+[7.773s] Extension: `omni.kit.manipulator.selection-110.1.0` was installed.
+[7.773s] Pulling extension: `omni.kit.notification_manager-1.0.17` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.notification_manager-7242fbae92d41bab.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp793ufxi5/omni.kit.notification_manager-1.0.17+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpwzlk_eqh/omni.ujitso.client-0.0.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ujitso.client-0777811883fec0c3
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.ujitso.client-0.0.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ujitso.client-0777811883fec0c3
+[7.830s] Extension: `omni.ujitso.client-0.0.0` was installed.
+[7.830s] Pulling extension: `omni.kit.window.filepicker-3.0.19` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.window.filepicker-861414c18e365308.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpi9p2xkbn/omni.kit.window.filepicker-3.0.19+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 36972] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp6s3jk0qa/omni.kit.clipboard-1.1.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.clipboard-41d5dbcf80c36e57
+[omni.kit.registry.nucleus] [tid: 36972] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.clipboard-1.1.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.clipboard-41d5dbcf80c36e57
+[7.881s] Extension: `omni.kit.clipboard-1.1.1` was installed.
+[7.881s] Pulling extension: `omni.activity.ui-1.3.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 36972] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.activity.ui-870667f70df0db8e.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpizuz8_lh/omni.activity.ui-1.3.0+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpwf4gkbkp/omni.kit.audiodeviceenum-1.0.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.audiodeviceenum-fe2b2da4aac0f371
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.audiodeviceenum-1.0.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.audiodeviceenum-fe2b2da4aac0f371
+[7.920s] Extension: `omni.kit.audiodeviceenum-1.0.2` was installed.
+[7.920s] Pulling extension: `omni.inspect-1.0.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.inspect-9a02e994594c0c2b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp9_60r6z7/omni.inspect-1.0.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp61mottha/omni.kit.renderer.capture-2.0.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.capture-ea231a2d73eefb65
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.renderer.capture-2.0.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.capture-ea231a2d73eefb65
+[omni.kit.registry.nucleus] [tid: 15636] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp0xyfw8zz/omni.kit.viewport.registry-104.0.6+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.viewport.registry-1576b2497df3b522
+[8.243s] Extension: `omni.kit.renderer.capture-2.0.2` was installed.
+[8.243s] Pulling extension: `omni.graph.tools-1.81.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.tools-5fb7b33f9fbfa2e4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpp17__k9f/omni.graph.tools-1.81.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 15636] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.viewport.registry-104.0.6+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.viewport.registry-1576b2497df3b522
+[8.267s] Extension: `omni.kit.viewport.registry-104.0.6` was installed.
+[8.267s] Pulling extension: `omni.usd.schema.omni_projectors-1.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 15636] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.omni_projectors-d8f1de40e9c15dc0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp5131o1hu/omni.usd.schema.omni_projectors-1.0.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp92p58e03/omni.ui.scene-2.1.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ui.scene-5a888fea5022de02
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp6k2hgqys/omni.usd.schema.render_settings.rtx-1.0.3+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.render_settings.rtx-19b875d936da9541
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.render_settings.rtx-1.0.3+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.render_settings.rtx-19b875d936da9541
+[8.644s] Extension: `omni.usd.schema.render_settings.rtx-1.0.3` was installed.
+[8.644s] Pulling extension: `omni.usd.schema.omnigraph-1.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.omnigraph-09666a4523885b0f.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp_rgf235o/omni.usd.schema.omnigraph-1.0.1+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.ui.scene-2.1.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ui.scene-5a888fea5022de02
+[8.684s] Extension: `omni.ui.scene-2.1.1` was installed.
+[8.684s] Pulling extension: `omni.usd.schema.sequence-3.2.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.sequence-3.2.1%2B110.4.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpdsfi7ek0/omni.usd.schema.sequence-3.2.1+110.4.0.wx64.r.cp312.u7f4.zip'...
+2026-11-26T18:08:55Z [9,996ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 3216] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpzpkrud1k/omni.usd.core-1.10.45+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.core-850b2b900025a60c
+[omni.kit.registry.nucleus] [tid: 3216] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.core-1.10.45+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.core-850b2b900025a60c
+[10.675s] Extension: `omni.usd.core-1.10.45` was installed.
+[10.675s] Pulling extension: `omni.index-1.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 3216] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.index-f26fdd216da4e956.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp4dlbl52z/omni.index-1.0.1+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp0cfpxw_0/omni.mdl.neuraylib-0.2.23+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.mdl.neuraylib-04e008e049f12660
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.mdl.neuraylib-0.2.23+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.mdl.neuraylib-04e008e049f12660
+[10.799s] Extension: `omni.mdl.neuraylib-0.2.23` was installed.
+[10.799s] Pulling extension: `omni.volume-0.5.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.volume-c8d90cea331c71be.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp85rzyh1u/omni.volume-0.5.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp793ufxi5/omni.kit.notification_manager-1.0.17+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.notification_manager-7242fbae92d41bab
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.notification_manager-1.0.17+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.notification_manager-7242fbae92d41bab
+[11.692s] Extension: `omni.kit.notification_manager-1.0.17` was installed.
+[11.692s] Pulling extension: `omni.kit.window.file_importer-1.1.23` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.window.file_importer-2315a0bd8734b052.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpyh6p5m3j/omni.kit.window.file_importer-1.1.23+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 29528] unpacking: C:/Users/Admin/AppData/Local/Temp/tmptxdksycj/omni.kit.commands-1.6.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.commands-b66b1bb698206597
+[omni.kit.registry.nucleus] [tid: 29528] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.commands-1.6.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.commands-b66b1bb698206597
+[11.957s] Extension: `omni.kit.commands-1.6.2` was installed.
+[11.957s] Pulling extension: `omni.graph.image.nodes-1.3.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 29528] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.image.nodes-333dc8ffad73bb99.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmphx2pflhm/omni.graph.image.nodes-1.3.2+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpmge2b865/omni.usd.schema.usd_particle_field-1.0.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.usd_particle_field-4d7e29391e8c427b
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.usd_particle_field-1.0.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.usd_particle_field-4d7e29391e8c427b
+[12.447s] Extension: `omni.usd.schema.usd_particle_field-1.0.0` was installed.
+[12.447s] Pulling extension: `omni.graph.scriptnode-2.10.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.scriptnode-2.10.2%2B110.0.0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpaa8k0s64/omni.graph.scriptnode-2.10.2+110.0.0.zip'...
+2026-11-26T18:08:59Z [13,997ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:00Z [14,997ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:01Z [15,997ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 36972] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpizuz8_lh/omni.activity.ui-1.3.0+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.ui-870667f70df0db8e
+[omni.kit.registry.nucleus] [tid: 36972] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.activity.ui-1.3.0+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.ui-870667f70df0db8e
+[16.232s] Extension: `omni.activity.ui-1.3.0` was installed.
+[16.232s] Pulling extension: `omni.kit.sequencer.core-110.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 36972] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.sequencer.core-110.0.1%2B110.4.0.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpzwfc45_0/omni.kit.sequencer.core-110.0.1+110.4.0.u7f4.zip'...
+2026-11-26T18:09:03Z [17,998ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:04Z [18,999ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:05Z [19,999ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:06Z [20,999ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:07Z [22,000ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:08Z [23,001ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:09Z [24,002ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:10Z [25,003ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:11Z [26,003ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:12Z [27,004ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:13Z [28,004ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:14Z [29,004ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:15Z [30,005ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:16Z [31,005ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:17Z [32,005ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:18Z [33,005ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:19Z [34,005ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:20Z [35,006ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:21Z [36,006ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 23936] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp47hdyo5u/omni.gpu_foundation-0.0.0+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.gpu_foundation-5510623c99e9d3b3
+2026-11-26T18:09:22Z [37,006ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpyh6p5m3j/omni.kit.window.file_importer-1.1.23+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.file_importer-2315a0bd8734b052
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.window.file_importer-1.1.23+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.file_importer-2315a0bd8734b052
+[37.357s] Extension: `omni.kit.window.file_importer-1.1.23` was installed.
+[37.357s] Pulling extension: `omni.kit.loop-default-0.2.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.loop-default-3e886abf84a2e0f7.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpsq7ozrwb/omni.kit.loop-default-0.2.2+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 3216] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp4dlbl52z/omni.index-1.0.1+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.index-f26fdd216da4e956
+[omni.kit.registry.nucleus] [tid: 29528] unpacking: C:/Users/Admin/AppData/Local/Temp/tmphx2pflhm/omni.graph.image.nodes-1.3.2+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.image.nodes-333dc8ffad73bb99
+[omni.kit.registry.nucleus] [tid: 3216] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.index-1.0.1+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.index-f26fdd216da4e956
+[37.699s] Extension: `omni.index-1.0.1` was installed.
+[37.699s] Pulling extension: `omni.gpucompute.plugins-0.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 3216] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.gpucompute.plugins-71705fdb850e69fd.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmph92o3x5p/omni.gpucompute.plugins-0.0.0+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 29528] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.image.nodes-1.3.2+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.image.nodes-333dc8ffad73bb99
+[37.725s] Extension: `omni.graph.image.nodes-1.3.2` was installed.
+[37.725s] Pulling extension: `omni.usd.libs-1.0.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 29528] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.libs-e4780ad8213c385c.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpv9nnayr5/omni.usd.libs-1.0.3+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 23936] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.gpu_foundation-0.0.0+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.gpu_foundation-5510623c99e9d3b3
+[37.797s] Extension: `omni.gpu_foundation-0.0.0` was installed.
+[37.797s] Pulling extension: `omni.mdl-57.0.6` from the registry.
+[omni.kit.registry.nucleus] [tid: 23936] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.mdl-80b2d39d45981c52.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmplce8mv9r/omni.mdl-57.0.6+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpp17__k9f/omni.graph.tools-1.81.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.tools-5fb7b33f9fbfa2e4
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpi9p2xkbn/omni.kit.window.filepicker-3.0.19+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.filepicker-861414c18e365308
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.window.filepicker-3.0.19+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.filepicker-861414c18e365308
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.tools-1.81.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.tools-5fb7b33f9fbfa2e4
+[38.137s] Extension: `omni.graph.tools-1.81.0` was installed.
+[38.137s] Pulling extension: `omni.kit.usd.mdl-1.1.12` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.usd.mdl-ccb926c261c120b7.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpoenvau9d/omni.kit.usd.mdl-1.1.12+33a8249d.wx64.r.cp312.zip'...
+[38.148s] Extension: `omni.kit.window.filepicker-3.0.19` was installed.
+[38.148s] Pulling extension: `omni.graph.exec-0.9.6` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.exec-31f6932e306ba632.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmphjuxy6hi/omni.graph.exec-0.9.6+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp_rgf235o/omni.usd.schema.omnigraph-1.0.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.omnigraph-09666a4523885b0f
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.omnigraph-1.0.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.omnigraph-09666a4523885b0f
+[38.906s] Extension: `omni.usd.schema.omnigraph-1.0.1` was installed.
+[38.906s] Pulling extension: `omni.timeline-1.1.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.timeline-9b5a6f1c9660dc2b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmplb6_4oza/omni.timeline-1.1.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp9_60r6z7/omni.inspect-1.0.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.inspect-9a02e994594c0c2b
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.inspect-1.0.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.inspect-9a02e994594c0c2b
+[39.012s] Extension: `omni.inspect-1.0.2` was installed.
+[39.012s] Pulling extension: `omni.kit.widget.browser_bar-2.0.11` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.browser_bar-8b9112a0bb5f68e1.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmprnypyb7e/omni.kit.widget.browser_bar-2.0.11+33a8249d.zip'...
+2026-11-26T18:09:25Z [40,006ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:26Z [41,006ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpaa8k0s64/omni.graph.scriptnode-2.10.2+110.0.0.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.scriptnode-2.10.2+110.0.0
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.scriptnode-2.10.2+110.0.0 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.scriptnode-2.10.2+110.0.0
+[41.286s] Extension: `omni.graph.scriptnode-2.10.2` was installed.
+[41.286s] Pulling extension: `omni.kit.viewport.utility-2.1.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.viewport.utility-36fe3cfd64806727.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp8yf_rg7h/omni.kit.viewport.utility-2.1.2+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp85rzyh1u/omni.volume-0.5.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.volume-c8d90cea331c71be
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.volume-0.5.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.volume-c8d90cea331c71be
+[42.952s] Extension: `omni.volume-0.5.2` was installed.
+[42.952s] Pulling extension: `omni.kit.sequencer.usd-110.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.sequencer.usd-110.0.1%2B110.4.0.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmphurzg41c/omni.kit.sequencer.usd-110.0.1+110.4.0.u7f4.zip'...
+2026-11-26T18:09:29Z [44,007ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:30Z [45,007ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:31Z [46,008ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 15636] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp5131o1hu/omni.usd.schema.omni_projectors-1.0.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.omni_projectors-d8f1de40e9c15dc0
+[omni.kit.registry.nucleus] [tid: 15636] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.omni_projectors-1.0.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.omni_projectors-d8f1de40e9c15dc0
+[46.567s] Extension: `omni.usd.schema.omni_projectors-1.0.0` was installed.
+[46.567s] Pulling extension: `omni.kit.pip_archive-0.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 15636] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.pip_archive-1f2f83c837e7b618.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpaiijkv9y/omni.kit.pip_archive-0.0.0+33a8249d.wx64.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmprnypyb7e/omni.kit.widget.browser_bar-2.0.11+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.browser_bar-8b9112a0bb5f68e1
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.browser_bar-2.0.11+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.browser_bar-8b9112a0bb5f68e1
+[47.587s] Extension: `omni.kit.widget.browser_bar-2.0.11` was installed.
+[47.587s] Pulling extension: `carb.audio-0.1.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/carb.audio-f40943ddec661b00.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpkptv21g7/carb.audio-0.1.0+33a8249d.wx64.r.cp312.zip'...
+2026-11-26T18:09:34Z [49,009ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:35Z [50,010ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:36Z [51,010ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:37Z [52,011ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpdsfi7ek0/omni.usd.schema.sequence-3.2.1+110.4.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.sequence-3.2.1+110.4.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.sequence-3.2.1+110.4.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.sequence-3.2.1+110.4.0.wx64.r.cp312.u7f4
+[52.311s] Extension: `omni.usd.schema.sequence-3.2.1` was installed.
+[52.311s] Pulling extension: `omni.usd.schema.omni_dome_light-1.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.omni_dome_light-10400c96cbacd11f.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp9m9flz8e/omni.usd.schema.omni_dome_light-1.0.0+33a8249d.zip'...
+2026-11-26T18:09:39Z [54,011ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:40Z [55,012ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:41Z [56,012ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 36972] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpzwfc45_0/omni.kit.sequencer.core-110.0.1+110.4.0.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.sequencer.core-110.0.1+110.4.0.u7f4
+[omni.kit.registry.nucleus] [tid: 36972] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.sequencer.core-110.0.1+110.4.0.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.sequencer.core-110.0.1+110.4.0.u7f4
+[56.577s] Extension: `omni.kit.sequencer.core-110.0.1` was installed.
+[56.577s] Pulling extension: `usdrt.scenegraph-7.6.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 36972] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/usdrt.scenegraph-f76919791a85735c.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpd9ct6lsb/usdrt.scenegraph-7.6.3+33a8249d.wx64.r.cp312.zip'...
+2026-11-26T18:09:43Z [58,013ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:44Z [59,013ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:45Z [60,013ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:46Z [61,013ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:47Z [62,014ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:48Z [63,014ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:49Z [64,014ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:50Z [65,014ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+2026-11-26T18:09:51Z [66,015ms] [Warning] [carb.tasking.plugin] carb.tasking is likely stuck. All threads are busy with same tasks for more than 1 seconds with waiting tasks. Starting an emergency helper thread.
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmplb6_4oza/omni.timeline-1.1.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.timeline-9b5a6f1c9660dc2b
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.timeline-1.1.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.timeline-9b5a6f1c9660dc2b
+[66.971s] Extension: `omni.timeline-1.1.2` was installed.
+[66.971s] Pulling extension: `omni.kit.actions.core-1.2.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.actions.core-0eef9a19d5f39a1a.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpdppwdr66/omni.kit.actions.core-1.2.1+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp8yf_rg7h/omni.kit.viewport.utility-2.1.2+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.viewport.utility-36fe3cfd64806727
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.viewport.utility-2.1.2+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.viewport.utility-36fe3cfd64806727
+[67.274s] Extension: `omni.kit.viewport.utility-2.1.2` was installed.
+[67.274s] Pulling extension: `omni.kit.window.file_exporter-1.0.38` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.window.file_exporter-26a204305c44fe26.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpc1buv0d1/omni.kit.window.file_exporter-1.0.38+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp9m9flz8e/omni.usd.schema.omni_dome_light-1.0.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.omni_dome_light-10400c96cbacd11f
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.omni_dome_light-1.0.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.omni_dome_light-10400c96cbacd11f
+[67.445s] Extension: `omni.usd.schema.omni_dome_light-1.0.0` was installed.
+[67.445s] Pulling extension: `omni.graph.action_nodes_core-2.11.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.action_nodes_core-2.11.0%2B110.0.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmplg6efj0n/omni.graph.action_nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpsq7ozrwb/omni.kit.loop-default-0.2.2+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.loop-default-3e886abf84a2e0f7
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.loop-default-0.2.2+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.loop-default-3e886abf84a2e0f7
+[67.802s] Extension: `omni.kit.loop-default-0.2.2` was installed.
+[67.802s] Pulling extension: `omni.graph.action_nodes-2.11.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.action_nodes-2.11.0%2B110.0.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp9gj_ko8r/omni.graph.action_nodes-2.11.0+110.0.0.wx64.r.cp312.u7f4.zip'...
+[omni.kit.registry.nucleus] [tid: 3216] unpacking: C:/Users/Admin/AppData/Local/Temp/tmph92o3x5p/omni.gpucompute.plugins-0.0.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.gpucompute.plugins-71705fdb850e69fd
+[omni.kit.registry.nucleus] [tid: 3216] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.gpucompute.plugins-0.0.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.gpucompute.plugins-71705fdb850e69fd
+[68.154s] Extension: `omni.gpucompute.plugins-0.0.0` was installed.
+[68.154s] Pulling extension: `omni.kit.data2ui.usd-1.1.4` from the registry.
+[omni.kit.registry.nucleus] [tid: 3216] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.data2ui.usd-1.1.4%2B107.0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpg191o3re/omni.kit.data2ui.usd-1.1.4+107.0.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpoenvau9d/omni.kit.usd.mdl-1.1.12+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.usd.mdl-ccb926c261c120b7
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.usd.mdl-1.1.12+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.usd.mdl-ccb926c261c120b7
+[68.889s] Extension: `omni.kit.usd.mdl-1.1.12` was installed.
+[68.889s] Pulling extension: `omni.uiaudio-1.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.uiaudio-7fbe37c051f1f7ec.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp_q_pchqn/omni.uiaudio-1.0.0+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmphurzg41c/omni.kit.sequencer.usd-110.0.1+110.4.0.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.sequencer.usd-110.0.1+110.4.0.u7f4
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.sequencer.usd-110.0.1+110.4.0.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.sequencer.usd-110.0.1+110.4.0.u7f4
+[69.622s] Extension: `omni.kit.sequencer.usd-110.0.1` was installed.
+[69.622s] Pulling extension: `omni.usd.schema.audio-0.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.audio-7adf3d041db44a73.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp9448ewc_/omni.usd.schema.audio-0.0.1+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpgrrhab9s/omni.index.libs-392300.2120.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.index.libs-9ac0abdd7947e3a0
+[omni.kit.registry.nucleus] [tid: 23936] unpacking: C:/Users/Admin/AppData/Local/Temp/tmplce8mv9r/omni.mdl-57.0.6+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.mdl-80b2d39d45981c52
+[omni.kit.registry.nucleus] [tid: 23936] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.mdl-57.0.6+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.mdl-80b2d39d45981c52
+[69.840s] Extension: `omni.mdl-57.0.6` was installed.
+[69.840s] Pulling extension: `omni.hydra.usdrt_delegate-7.5.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 23936] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.hydra.usdrt_delegate-e2d02ed6b4b69969.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpcufq5qn3/omni.hydra.usdrt_delegate-7.5.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmphjuxy6hi/omni.graph.exec-0.9.6+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.exec-31f6932e306ba632
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.exec-0.9.6+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.exec-31f6932e306ba632
+[70.141s] Extension: `omni.graph.exec-0.9.6` was installed.
+[70.141s] Pulling extension: `omni.usd.schema.playback-1.1.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.schema.playback-262e1bdc31a426ce.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpqny98t4u/omni.usd.schema.playback-1.1.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.index.libs-392300.2120.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.index.libs-9ac0abdd7947e3a0
+[70.618s] Extension: `omni.index.libs-392300.2120.0` was installed.
+[70.618s] Pulling extension: `omni.kit.primitive.mesh-1.1.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.primitive.mesh-74a423982d980c10.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp6wdnwb76/omni.kit.primitive.mesh-1.1.1+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp9448ewc_/omni.usd.schema.audio-0.0.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.audio-7adf3d041db44a73
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.audio-0.0.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.audio-7adf3d041db44a73
+[70.723s] Extension: `omni.usd.schema.audio-0.0.1` was installed.
+[70.723s] Pulling extension: `omni.anim.timeline-110.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.anim.timeline-110.0.1%2B110.0.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpw6dp1nh5/omni.anim.timeline-110.0.1+110.0.0.wx64.r.cp312.u7f4.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp_q_pchqn/omni.uiaudio-1.0.0+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.uiaudio-7fbe37c051f1f7ec
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpc1buv0d1/omni.kit.window.file_exporter-1.0.38+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.file_exporter-26a204305c44fe26
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.uiaudio-1.0.0+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.uiaudio-7fbe37c051f1f7ec
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.window.file_exporter-1.0.38+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.file_exporter-26a204305c44fe26
+[70.785s] Extension: `omni.uiaudio-1.0.0` was installed.
+[70.785s] Pulling extension: `omni.graph.action-2.10.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.action-2.10.2%2B110.0.0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp83x3f94u/omni.graph.action-2.10.2+110.0.0.zip'...
+[70.795s] Extension: `omni.kit.window.file_exporter-1.0.38` was installed.
+[70.795s] Pulling extension: `omni.graph.image.core-0.6.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.image.core-ee7d5048dbf32fbf.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmptgo4o2e_/omni.graph.image.core-0.6.1+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpdppwdr66/omni.kit.actions.core-1.2.1+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.actions.core-0eef9a19d5f39a1a
+[omni.kit.registry.nucleus] [tid: 3216] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpg191o3re/omni.kit.data2ui.usd-1.1.4+107.0.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.data2ui.usd-1.1.4+107.0
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.actions.core-1.2.1+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.actions.core-0eef9a19d5f39a1a
+[71.104s] Extension: `omni.kit.actions.core-1.2.1` was installed.
+[71.104s] Pulling extension: `omni.kit.data2ui.core-1.1.4` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.data2ui.core-1.1.4%2B107.0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpwlyo8dao/omni.kit.data2ui.core-1.1.4+107.0.zip'...
+[omni.kit.registry.nucleus] [tid: 3216] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.data2ui.usd-1.1.4+107.0 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.data2ui.usd-1.1.4+107.0
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpkptv21g7/carb.audio-0.1.0+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/carb.audio-f40943ddec661b00
+[71.154s] Extension: `omni.kit.data2ui.usd-1.1.4` was installed.
+[71.154s] Pulling extension: `omni.ui-3.3.11` from the registry.
+[omni.kit.registry.nucleus] [tid: 3216] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.ui-62f791db83a776e4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpu_9872d_/omni.ui-3.3.11+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/carb.audio-0.1.0+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/carb.audio-f40943ddec661b00
+[71.180s] Extension: `carb.audio-0.1.0` was installed.
+[71.180s] Pulling extension: `omni.kit.helper.file_utils-0.1.10` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.helper.file_utils-56d4244fcd998a50.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpee9u74hv/omni.kit.helper.file_utils-0.1.10+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp9gj_ko8r/omni.graph.action_nodes-2.11.0+110.0.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action_nodes-2.11.0+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.action_nodes-2.11.0+110.0.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action_nodes-2.11.0+110.0.0.wx64.r.cp312.u7f4
+[71.548s] Extension: `omni.graph.action_nodes-2.11.0` was installed.
+[71.548s] Pulling extension: `omni.kit.hydra_texture-1.6.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.hydra_texture-80608bdec242b1df.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmppup0rezl/omni.kit.hydra_texture-1.6.3+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp6wdnwb76/omni.kit.primitive.mesh-1.1.1+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.primitive.mesh-74a423982d980c10
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.primitive.mesh-1.1.1+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.primitive.mesh-74a423982d980c10
+[71.690s] Extension: `omni.kit.primitive.mesh-1.1.1` was installed.
+[71.690s] Pulling extension: `omni.kit.livestream.messaging-1.3.5` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.livestream.messaging-1.3.5%2B109.0.0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpubxhr4x_/omni.kit.livestream.messaging-1.3.5+109.0.0.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpqny98t4u/omni.usd.schema.playback-1.1.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.playback-262e1bdc31a426ce
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.schema.playback-1.1.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.schema.playback-262e1bdc31a426ce
+[71.756s] Extension: `omni.usd.schema.playback-1.1.0` was installed.
+[71.756s] Pulling extension: `omni.kit.menu.core-1.3.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.menu.core-1caaec223d13fd5f.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpo8j5wkq0/omni.kit.menu.core-1.3.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmplg6efj0n/omni.graph.action_nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action_nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.action_nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action_nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4
+[72.104s] Extension: `omni.graph.action_nodes_core-2.11.0` was installed.
+[72.104s] Pulling extension: `omni.kit.window.file-2.0.17` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.window.file-872c2fcae706bb1b.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmplnsps1al/omni.kit.window.file-2.0.17+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpwlyo8dao/omni.kit.data2ui.core-1.1.4+107.0.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.data2ui.core-1.1.4+107.0
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.data2ui.core-1.1.4+107.0 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.data2ui.core-1.1.4+107.0
+[72.198s] Extension: `omni.kit.data2ui.core-1.1.4` was installed.
+[72.198s] Pulling extension: `omni.kit.usd.layers-2.7.10` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.usd.layers-f5936aedb96bb946.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpws42v3w2/omni.kit.usd.layers-2.7.10+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmptgo4o2e_/omni.graph.image.core-0.6.1+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.image.core-ee7d5048dbf32fbf
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.image.core-0.6.1+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.image.core-ee7d5048dbf32fbf
+[72.252s] Extension: `omni.graph.image.core-0.6.1` was installed.
+[72.252s] Pulling extension: `omni.graph-1.142.6` from the registry.
+[omni.kit.registry.nucleus] [tid: 37080] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph-23d1ba9f87a9b252.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp1opheomp/omni.graph-1.142.6+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp83x3f94u/omni.graph.action-2.10.2+110.0.0.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action-2.10.2+110.0.0
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.action-2.10.2+110.0.0 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action-2.10.2+110.0.0
+[73.730s] Extension: `omni.graph.action-2.10.2` was installed.
+[73.730s] Pulling extension: `omni.kit.stage_templates-2.0.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.stage_templates-e4bd7034e7e0c9ba.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpos6sbw4n/omni.kit.stage_templates-2.0.3+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmppup0rezl/omni.kit.hydra_texture-1.6.3+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.hydra_texture-80608bdec242b1df
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.hydra_texture-1.6.3+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.hydra_texture-80608bdec242b1df
+[73.911s] Extension: `omni.kit.hydra_texture-1.6.3` was installed.
+[73.911s] Pulling extension: `omni.anim.curve.core-1.6.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.anim.curve.core-1.6.1%2B110.0.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpjllfycl9/omni.anim.curve.core-1.6.1+110.0.0.wx64.r.cp312.u7f4.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpw6dp1nh5/omni.anim.timeline-110.0.1+110.0.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.anim.timeline-110.0.1+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpee9u74hv/omni.kit.helper.file_utils-0.1.10+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.helper.file_utils-56d4244fcd998a50
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.anim.timeline-110.0.1+110.0.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.anim.timeline-110.0.1+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.helper.file_utils-0.1.10+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.helper.file_utils-56d4244fcd998a50
+[74.069s] Extension: `omni.anim.timeline-110.0.1` was installed.
+[74.069s] Pulling extension: `omni.graph.nodes-2.12.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.nodes-2.12.1%2B110.0.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpfr1b135r/omni.graph.nodes-2.12.1+110.0.0.wx64.r.cp312.u7f4.zip'...
+[74.080s] Extension: `omni.kit.helper.file_utils-0.1.10` was installed.
+[74.080s] Pulling extension: `omni.graph.ui_nodes-2.11.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.ui_nodes-2.11.2%2B110.0.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpw096l5sb/omni.graph.ui_nodes-2.11.2+110.0.0.wx64.r.cp312.u7f4.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpubxhr4x_/omni.kit.livestream.messaging-1.3.5+109.0.0.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.messaging-1.3.5+109.0.0
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.livestream.messaging-1.3.5+109.0.0 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.messaging-1.3.5+109.0.0
+[74.411s] Extension: `omni.kit.livestream.messaging-1.3.5` was installed.
+[74.411s] Pulling extension: `carb.windowing.plugins-1.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/carb.windowing.plugins-b66709e775270d4a.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp65id_8ie/carb.windowing.plugins-1.0.1+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpo8j5wkq0/omni.kit.menu.core-1.3.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.menu.core-1caaec223d13fd5f
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.menu.core-1.3.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.menu.core-1caaec223d13fd5f
+[74.719s] Extension: `omni.kit.menu.core-1.3.0` was installed.
+[74.719s] Pulling extension: `omni.kit.renderer.init-1.0.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.renderer.init-8c82a01b26939624.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp2787hl1v/omni.kit.renderer.init-1.0.1+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmplnsps1al/omni.kit.window.file-2.0.17+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.file-872c2fcae706bb1b
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.window.file-2.0.17+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.file-872c2fcae706bb1b
+[74.861s] Extension: `omni.kit.window.file-2.0.17` was installed.
+[74.861s] Pulling extension: `omni.kit.test-2.2.4` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.test-0cb89d40ab14e54a.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmps08m258n/omni.kit.test-2.2.4+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 23936] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpcufq5qn3/omni.hydra.usdrt_delegate-7.5.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.usdrt_delegate-e2d02ed6b4b69969
+[omni.kit.registry.nucleus] [tid: 23936] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.hydra.usdrt_delegate-7.5.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.usdrt_delegate-e2d02ed6b4b69969
+[75.091s] Extension: `omni.hydra.usdrt_delegate-7.5.2` was installed.
+[75.091s] Pulling extension: `omni.usd.config-1.0.8` from the registry.
+[omni.kit.registry.nucleus] [tid: 23936] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd.config-3d1a1eaada059362.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmplafnz8wp/omni.usd.config-1.0.8+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpos6sbw4n/omni.kit.stage_templates-2.0.3+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.stage_templates-e4bd7034e7e0c9ba
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.stage_templates-2.0.3+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.stage_templates-e4bd7034e7e0c9ba
+[75.664s] Extension: `omni.kit.stage_templates-2.0.3` was installed.
+[75.664s] Pulling extension: `omni.kit.renderer.imgui-2.2.2` from the registry.
+[omni.kit.registry.nucleus] [tid: 16480] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.renderer.imgui-f777aba351db88c0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmptzzyvej8/omni.kit.renderer.imgui-2.2.2+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpws42v3w2/omni.kit.usd.layers-2.7.10+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.usd.layers-f5936aedb96bb946
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.usd.layers-2.7.10+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.usd.layers-f5936aedb96bb946
+[76.106s] Extension: `omni.kit.usd.layers-2.7.10` was installed.
+[76.106s] Pulling extension: `omni.usd_resolver-1.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 38416] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd_resolver-7c338105da2a95a6.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpjbr7madx/omni.usd_resolver-1.0.0+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp2787hl1v/omni.kit.renderer.init-1.0.1+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.init-8c82a01b26939624
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.renderer.init-1.0.1+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.init-8c82a01b26939624
+[76.299s] Extension: `omni.kit.renderer.init-1.0.1` was installed.
+[76.299s] Pulling extension: `omni.hydra.scene_delegate-0.3.5` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.hydra.scene_delegate-1f7aa45abab10dee.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpar58sk3w/omni.hydra.scene_delegate-0.3.5+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 33072] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpqqxc8gse/omni.iray.libs-0.0.1+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.iray.libs-18e7851028594ad4
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp65id_8ie/carb.windowing.plugins-1.0.1+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/carb.windowing.plugins-b66709e775270d4a
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/carb.windowing.plugins-1.0.1+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/carb.windowing.plugins-b66709e775270d4a
+[76.933s] Extension: `carb.windowing.plugins-1.0.1` was installed.
+[76.933s] Pulling extension: `omni.kit.window.popup_dialog-2.0.26` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.window.popup_dialog-7e23cbbda63365f2.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpc2pll3ju/omni.kit.window.popup_dialog-2.0.26+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 23936] unpacking: C:/Users/Admin/AppData/Local/Temp/tmplafnz8wp/omni.usd.config-1.0.8+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.config-3d1a1eaada059362
+[omni.kit.registry.nucleus] [tid: 23936] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.config-1.0.8+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.config-3d1a1eaada059362
+[77.125s] Extension: `omni.usd.config-1.0.8` was installed.
+[77.125s] Pulling extension: `omni.usd-1.19.12` from the registry.
+[omni.kit.registry.nucleus] [tid: 23936] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd-0b7dd3ad34ea659d.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpysigsbqt/omni.usd-1.19.12+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmps08m258n/omni.kit.test-2.2.4+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.test-0cb89d40ab14e54a
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.test-2.2.4+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.test-0cb89d40ab14e54a
+[77.725s] Extension: `omni.kit.test-2.2.4` was installed.
+[77.725s] Pulling extension: `omni.activity.usd_resolver-1.0.4` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.activity.usd_resolver-045b6b43ed47fa1c.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpr5ruapzq/omni.activity.usd_resolver-1.0.4+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpw096l5sb/omni.graph.ui_nodes-2.11.2+110.0.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.ui_nodes-2.11.2+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.ui_nodes-2.11.2+110.0.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.ui_nodes-2.11.2+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpc2pll3ju/omni.kit.window.popup_dialog-2.0.26+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.popup_dialog-7e23cbbda63365f2
+[78.127s] Extension: `omni.graph.ui_nodes-2.11.2` was installed.
+[78.127s] Pulling extension: `omni.hydra.rtx-1.0.5` from the registry.
+[omni.kit.registry.nucleus] [tid: 21356] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.hydra.rtx-76893e9272b8d413.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpsz67ol0e/omni.hydra.rtx-1.0.5+33a8249d.wx64.r.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.window.popup_dialog-2.0.26+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.window.popup_dialog-7e23cbbda63365f2
+[78.174s] Extension: `omni.kit.window.popup_dialog-2.0.26` was installed.
+[78.174s] Pulling extension: `omni.kit.widget.context_menu-1.5.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.widget.context_menu-4987f1b2607f9aab.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmptkc4l78_/omni.kit.widget.context_menu-1.5.0+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 33072] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.iray.libs-0.0.1+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.iray.libs-18e7851028594ad4
+[78.495s] Extension: `omni.iray.libs-0.0.1` was installed.
+[78.495s] Pulling extension: `omni.graph.action_core-1.1.9` from the registry.
+[omni.kit.registry.nucleus] [tid: 33072] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.action_core-02cfad796cd8625a.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpz6fa1_hz/omni.graph.action_core-1.1.9+33a8249d.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpar58sk3w/omni.hydra.scene_delegate-0.3.5+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.scene_delegate-1f7aa45abab10dee
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpr5ruapzq/omni.activity.usd_resolver-1.0.4+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.usd_resolver-045b6b43ed47fa1c
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.hydra.scene_delegate-0.3.5+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.scene_delegate-1f7aa45abab10dee
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.activity.usd_resolver-1.0.4+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.activity.usd_resolver-045b6b43ed47fa1c
+[79.146s] Extension: `omni.activity.usd_resolver-1.0.4` was installed.
+[79.146s] Pulling extension: `omni.graph.nodes_core-2.11.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 26748] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.graph.nodes_core-2.11.0%2B110.0.0.wx64.r.cp312.u7f4.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp0164eaj_/omni.graph.nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4.zip'...
+[79.156s] Extension: `omni.hydra.scene_delegate-0.3.5` was installed.
+[79.156s] Pulling extension: `omni.kit.manipulator.camera-110.1.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 37620] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.manipulator.camera-151912f2214afd97.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpi8_l0k6w/omni.kit.manipulator.camera-110.1.1+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpjllfycl9/omni.anim.curve.core-1.6.1+110.0.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.anim.curve.core-1.6.1+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.anim.curve.core-1.6.1+110.0.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.anim.curve.core-1.6.1+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpfr1b135r/omni.graph.nodes-2.12.1+110.0.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.nodes-2.12.1+110.0.0.wx64.r.cp312.u7f4
+[79.488s] Extension: `omni.anim.curve.core-1.6.1` was installed.
+[79.488s] Pulling extension: `omni.kit.renderer.ready-1.0.0` from the registry.
+[omni.kit.registry.nucleus] [tid: 37272] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.renderer.ready-1.0.0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpraung0cn/omni.kit.renderer.ready-1.0.0.zip'...
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.nodes-2.12.1+110.0.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.nodes-2.12.1+110.0.0.wx64.r.cp312.u7f4
+[79.860s] Extension: `omni.graph.nodes-2.12.1` was installed.
+[79.860s] Pulling extension: `omni.no_code_ui.bundle-1.1.4` from the registry.
+[omni.kit.registry.nucleus] [tid: 37520] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.no_code_ui.bundle-1.1.4%2B107.0.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpd50olrfu/omni.no_code_ui.bundle-1.1.4+107.0.zip'...
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmptkc4l78_/omni.kit.widget.context_menu-1.5.0+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.context_menu-4987f1b2607f9aab
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.widget.context_menu-1.5.0+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.widget.context_menu-4987f1b2607f9aab
+[79.964s] Extension: `omni.kit.widget.context_menu-1.5.0` was installed.
+[79.964s] Pulling extension: `omni.usd_viewer.samples-106.3.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 13544] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.usd_viewer.samples-106.3.3.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpt1egjkzw/omni.usd_viewer.samples-106.3.3.zip'...
+[omni.kit.registry.nucleus] [tid: 23936] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpysigsbqt/omni.usd-1.19.12+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd-0b7dd3ad34ea659d
+[omni.kit.registry.nucleus] [tid: 23936] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd-1.19.12+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd-0b7dd3ad34ea659d
+[80.521s] Extension: `omni.usd-1.19.12` was installed.
+[omni.kit.registry.nucleus] [tid: 38416] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpjbr7madx/omni.usd_resolver-1.0.0+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd_resolver-7c338105da2a95a6
+[omni.kit.registry.nucleus] [tid: 38416] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_resolver-1.0.0+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd_resolver-7c338105da2a95a6
+[81.109s] Extension: `omni.usd_resolver-1.0.0` was installed.
+[omni.kit.registry.nucleus] [tid: 33072] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpz6fa1_hz/omni.graph.action_core-1.1.9+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action_core-02cfad796cd8625a
+[omni.kit.registry.nucleus] [tid: 33072] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.action_core-1.1.9+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.action_core-02cfad796cd8625a
+[81.229s] Extension: `omni.graph.action_core-1.1.9` was installed.
+[omni.kit.registry.nucleus] [tid: 37520] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpd50olrfu/omni.no_code_ui.bundle-1.1.4+107.0.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.no_code_ui.bundle-1.1.4+107.0
+[omni.kit.registry.nucleus] [tid: 37520] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.no_code_ui.bundle-1.1.4+107.0 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.no_code_ui.bundle-1.1.4+107.0
+[81.629s] Extension: `omni.no_code_ui.bundle-1.1.4` was installed.
+[omni.kit.registry.nucleus] [tid: 37620] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpi8_l0k6w/omni.kit.manipulator.camera-110.1.1+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.manipulator.camera-151912f2214afd97
+[omni.kit.registry.nucleus] [tid: 37620] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.manipulator.camera-110.1.1+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.manipulator.camera-151912f2214afd97
+[81.883s] Extension: `omni.kit.manipulator.camera-110.1.1` was installed.
+[omni.kit.registry.nucleus] [tid: 37272] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpraung0cn/omni.kit.renderer.ready-1.0.0.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.ready-1.0.0
+[omni.kit.registry.nucleus] [tid: 37272] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.renderer.ready-1.0.0 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.ready-1.0.0
+[82.899s] Extension: `omni.kit.renderer.ready-1.0.0` was installed.
+[omni.kit.registry.nucleus] [tid: 3216] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpu_9872d_/omni.ui-3.3.11+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ui-62f791db83a776e4
+[omni.kit.registry.nucleus] [tid: 3216] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.ui-3.3.11+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ui-62f791db83a776e4
+[83.746s] Extension: `omni.ui-3.3.11` was installed.
+[omni.kit.registry.nucleus] [tid: 37080] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp1opheomp/omni.graph-1.142.6+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph-23d1ba9f87a9b252
+[omni.kit.registry.nucleus] [tid: 37080] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph-1.142.6+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph-23d1ba9f87a9b252
+[84.787s] Extension: `omni.graph-1.142.6` was installed.
+[omni.kit.registry.nucleus] [tid: 16480] unpacking: C:/Users/Admin/AppData/Local/Temp/tmptzzyvej8/omni.kit.renderer.imgui-2.2.2+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.imgui-f777aba351db88c0
+[omni.kit.registry.nucleus] [tid: 16480] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.renderer.imgui-2.2.2+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.renderer.imgui-f777aba351db88c0
+[88.548s] Extension: `omni.kit.renderer.imgui-2.2.2` was installed.
+[omni.kit.registry.nucleus] [tid: 15636] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpaiijkv9y/omni.kit.pip_archive-0.0.0+33a8249d.wx64.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.pip_archive-1f2f83c837e7b618
+[omni.kit.registry.nucleus] [tid: 15636] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.pip_archive-0.0.0+33a8249d.wx64.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.pip_archive-1f2f83c837e7b618
+[92.897s] Extension: `omni.kit.pip_archive-0.0.0` was installed.
+[omni.kit.registry.nucleus] [tid: 36868] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpsbvf1xbr/omni.hydra.rtx.shadercache.d3d12-1.0.0+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.rtx.shadercache.d3d12-c56d7a4846411202
+[omni.kit.registry.nucleus] [tid: 26748] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp0164eaj_/omni.graph.nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4
+[omni.kit.registry.nucleus] [tid: 26748] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.graph.nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.graph.nodes_core-2.11.0+110.0.0.wx64.r.cp312.u7f4
+[95.402s] Extension: `omni.graph.nodes_core-2.11.0` was installed.
+[omni.kit.registry.nucleus] [tid: 36972] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpd9ct6lsb/usdrt.scenegraph-7.6.3+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/usdrt.scenegraph-f76919791a85735c
+[omni.kit.registry.nucleus] [tid: 36972] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/usdrt.scenegraph-7.6.3+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/usdrt.scenegraph-f76919791a85735c
+[95.998s] Extension: `usdrt.scenegraph-7.6.3` was installed.
+[omni.kit.registry.nucleus] [tid: 36868] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.hydra.rtx.shadercache.d3d12-1.0.0+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.rtx.shadercache.d3d12-c56d7a4846411202
+[96.170s] Extension: `omni.hydra.rtx.shadercache.d3d12-1.0.0` was installed.
+[omni.kit.registry.nucleus] [tid: 29528] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpv9nnayr5/omni.usd.libs-1.0.3+33a8249d.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.libs-e4780ad8213c385c
+[omni.kit.registry.nucleus] [tid: 29528] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd.libs-1.0.3+33a8249d.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd.libs-e4780ad8213c385c
+[99.463s] Extension: `omni.usd.libs-1.0.3` was installed.
+[omni.kit.registry.nucleus] [tid: 21356] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpsz67ol0e/omni.hydra.rtx-1.0.5+33a8249d.wx64.r.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.rtx-76893e9272b8d413
+[omni.kit.registry.nucleus] [tid: 13544] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpt1egjkzw/omni.usd_viewer.samples-106.3.3.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd_viewer.samples-106.3.3
+[omni.kit.registry.nucleus] [tid: 13544] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.usd_viewer.samples-106.3.3
+[142.252s] Extension: `omni.usd_viewer.samples-106.3.3` was installed.
+[omni.kit.registry.nucleus] [tid: 21356] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.hydra.rtx-1.0.5+33a8249d.wx64.r -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.hydra.rtx-76893e9272b8d413
+[143.450s] Extension: `omni.hydra.rtx-1.0.5` was installed.
+[143.480s] Generated version lock for 'creo_viewer-0.1.0' in file: `c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/source/apps/creo_viewer.kit`
+Creating a link 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extsbuild/omni.graph.tools' -> 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache/omni.graph.tools-1.81.0+33a8249d'
+Creating a link 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extsbuild/omni.kit.renderer.imgui' -> 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache/omni.kit.renderer.imgui-2.2.2+33a8249d.wx64.r.cp312'
+Creating a link 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extsbuild/omni.kit.test' -> 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache/omni.kit.test-2.2.4+33a8249d.wx64.r.cp312'
+Creating a link 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extsbuild/omni.ui' -> 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache/omni.ui-3.3.11+33a8249d.wx64.r.cp312'
+Creating a link 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extsbuild/omni.usd.core' -> 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache/omni.usd.core-1.10.45+33a8249d.wx64.r'
+Creating a link 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extsbuild/omni.usd.libs' -> 'C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache/omni.usd.libs-1.0.3+33a8249d.wx64.r.cp312'
+Setting env var: OMNI_TRUSTED_CERTIFICATE=ALL
+running kit for app precache, cmd: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\kit\kit.exe C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\apps\creo_viewer_streaming.kit --allow-root --portable --ext-precache-mode --/crashreporter/gatherUserStory=0 --/app/settings/persistent=0 --/app/settings/loadUserConfig=0 --/app/extensions/generateVersionLock=1 --/app/extensions/parallelPullEnabled=1 --/app/enableStdoutOutput=1 --/app/extensions/detailedSolverExplanation=1 --/app/extensions/registryEnabled=1 --/app/extensions/mkdirExtFolders=0 --/app/extensions/registryCacheFull='C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache' --/log/flushStandardStreamOutput=1 --/app/extensions/target/config=release --ext-folder C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\extensions --ext-folder C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\apps --portable-root C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release --/app/extensions/generateVersionLockSkipLocalExts=1
+2026-11-26T18:11:09Z [Info] [carb] Logging to file: C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/logs/Kit/creo_viewer Streaming/0.1/kit_20261127_011109.log
+[0.188s] Failed to solve some dependencies locally, syncing with extension registry...
+[0.189s] [ext: omni.kit.async_engine-0.0.6] startup
+[0.226s] [ext: omni.client.lib-1.1.1] startup
+[0.233s] [ext: omni.kit.registry.nucleus-0.0.0] startup
+I: Initializing Version 2.75.1-release.7540+gl.d3c5c5b8
+I: Client ID: WMPZGK2P
+I: ThreadId(02) hub_client::client::Client::new Launching client mode=Shared with_cleaner=false cache_path=None cache_size=None
+I: ThreadId(03) launch self=Launcher { discovery_lock: RwLock { lock: RwLock { inner: File { handle: 0x5ec, path: "\\\\?\\C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin.lock" } } }, mode: Shared, with_cleaner: false, config_file: "C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin-2E93CDF6.config.json" } cmd="hub.exe" "--mode=shared" "--write-config" "C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin-2E93CDF6.config.json" "--"
+I: Not using Hub: Hub not found
+I: Successfully created Azure provider for https://ovextensionsprod.blob.core.windows.net
+[2.958s] Pulling extension: `omni.kit.livestream.webrtc-10.7.4` from the registry.
+[2.958s] Pulling extension: `omni.kit.livestream.core-10.5.0` from the registry.
+[2.958s] Pulling extension: `omni.kit.livestream.app-10.4.1` from the registry.
+[omni.kit.registry.nucleus] [tid: 24548] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.livestream.app-10.4.1%2B110.1.2.wx64.r.cp312.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmprw8afyvq/omni.kit.livestream.app-10.4.1+110.1.2.wx64.r.cp312.zip'...
+[omni.kit.registry.nucleus] [tid: 34136] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.livestream.core-10.5.0%2B110.1.2.wx64.r.cp312.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp6r85kplg/omni.kit.livestream.core-10.5.0+110.1.2.wx64.r.cp312.zip'...
+I: Successfully created S3 provider for https://d4i3qtqj3r0[omni.kit.registry.nucleus] [tid: 22732] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.livestream.webrtc-10.7.4%2B110.1.2.wx64.r.cp312.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmp0tp5m20_/omni.kit.livestream.webrtc-10.7.4+110.1.2.wx64.r.cp312.zip'...z5.cloudfront.net
+
+[omni.kit.registry.nucleus] [tid: 34136] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp6r85kplg/omni.kit.livestream.core-10.5.0+110.1.2.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.core-10.5.0+110.1.2.wx64.r.cp312
+[omni.kit.registry.nucleus] [tid: 34136] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.livestream.core-10.5.0+110.1.2.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.core-10.5.0+110.1.2.wx64.r.cp312
+[3.426s] Extension: `omni.kit.livestream.core-10.5.0` was installed.
+[omni.kit.registry.nucleus] [tid: 24548] unpacking: C:/Users/Admin/AppData/Local/Temp/tmprw8afyvq/omni.kit.livestream.app-10.4.1+110.1.2.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.app-10.4.1+110.1.2.wx64.r.cp312
+[omni.kit.registry.nucleus] [tid: 24548] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.livestream.app-10.4.1+110.1.2.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.app-10.4.1+110.1.2.wx64.r.cp312
+[3.593s] Extension: `omni.kit.livestream.app-10.4.1` was installed.
+[omni.kit.registry.nucleus] [tid: 22732] unpacking: C:/Users/Admin/AppData/Local/Temp/tmp0tp5m20_/omni.kit.livestream.webrtc-10.7.4+110.1.2.wx64.r.cp312.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.webrtc-10.7.4+110.1.2.wx64.r.cp312
+[omni.kit.registry.nucleus] [tid: 22732] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.livestream.webrtc-10.7.4+110.1.2.wx64.r.cp312 -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.livestream.webrtc-10.7.4+110.1.2.wx64.r.cp312
+[5.591s] Extension: `omni.kit.livestream.webrtc-10.7.4` was installed.
+[5.597s] Generated version lock for 'creo_viewer_streaming-0.1.0' in file: `c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/source/apps/creo_viewer_streaming.kit`
+Setting env var: OMNI_TRUSTED_CERTIFICATE=ALL
+running kit for app precache, cmd: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\kit\kit.exe C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\apps\exts.deps.generated.kit --allow-root --portable --ext-precache-mode --/crashreporter/gatherUserStory=0 --/app/settings/persistent=0 --/app/settings/loadUserConfig=0 --/app/extensions/generateVersionLock=1 --/app/extensions/parallelPullEnabled=1 --/app/enableStdoutOutput=1 --/app/extensions/detailedSolverExplanation=1 --/app/extensions/registryEnabled=1 --/app/extensions/mkdirExtFolders=0 --/app/extensions/registryCacheFull='C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\extscache' --/log/flushStandardStreamOutput=1 --/app/extensions/target/config=release --ext-folder C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\extensions --ext-folder C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\source\apps --/app/extensions/generateVersionLockSkipLocalExts=1 --portable-root C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release --/app/extensions/generateVersionLockSkipLocalExts=1
+2026-11-26T18:11:14Z [Info] [carb] Logging to file: C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/logs/Kit/exts.deps.generated/0.0/kit_20261127_011114.log
+[0.206s] Failed to solve some dependencies locally, syncing with extension registry...
+[0.207s] [ext: omni.kit.async_engine-0.0.6] startup
+[0.234s] [ext: omni.client.lib-1.1.1] startup
+[0.240s] [ext: omni.kit.registry.nucleus-0.0.0] startup
+I: Initializing Version 2.75.1-release.7540+gl.d3c5c5b8
+I: Client ID: 8RZIBCPV
+I: ThreadId(02) hub_client::client::Client::new Launching client mode=Shared with_cleaner=false cache_path=None cache_size=None
+I: ThreadId(03) launch self=Launcher { discovery_lock: RwLock { lock: RwLock { inner: File { handle: 0x5ac, path: "\\\\?\\C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin.lock" } } }, mode: Shared, with_cleaner: false, config_file: "C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin-6F2CD023.config.json" } cmd="hub.exe" "--mode=shared" "--write-config" "C:\\Users\\Admin\\AppData\\Local\\Temp\\hub-Admin-6F2CD023.config.json" "--"
+I: Not using Hub: Hub not found
+I: Successfully created Azure provider for https://ovextensionsprod.blob.core.windows.net
+[2.687s] Pulling extension: `omni.ui_query-1.1.12` from the registry.
+[2.687s] Pulling extension: `omni.kit.ui_test-1.5.3` from the registry.
+[omni.kit.registry.nucleus] [tid: 27436] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.ui_query-5ff1b9fa6c546e39.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpta7u6yf_/omni.ui_query-1.1.12+33a8249d.zip'...
+[omni.kit.registry.nucleus] [tid: 13392] downloading: 'https://d4i3qtqj3r0z5.cloudfront.net/omni.kit.ui_test-b473d028ee4980b1.zip' -> 'C:/Users/Admin/AppData/Local/Temp/tmpofgrhp4w/omni.kit.ui_test-1.5.3+33a8249d.zip'...I
+: Successfully created S3 provider for https://d4i3qtqj3r0z5.cloudfront.net
+[omni.kit.registry.nucleus] [tid: 27436] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpta7u6yf_/omni.ui_query-1.1.12+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ui_query-5ff1b9fa6c546e39
+[omni.kit.registry.nucleus] [tid: 13392] unpacking: C:/Users/Admin/AppData/Local/Temp/tmpofgrhp4w/omni.kit.ui_test-1.5.3+33a8249d.zip -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.ui_test-b473d028ee4980b1
+[omni.kit.registry.nucleus] [tid: 27436] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.ui_query-1.1.12+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.ui_query-5ff1b9fa6c546e39
+[omni.kit.registry.nucleus] [tid: 13392] creating a link: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.kit.ui_test-1.5.3+33a8249d -> C:/Users/Admin/AppData/Local/ov/data/exts/v2/omni.kit.ui_test-b473d028ee4980b1
+[2.810s] Extension: `omni.kit.ui_test-1.5.3` was installed.
+[2.821s] Extension: `omni.ui_query-1.1.12` was installed.
+[2.824s] Generated version lock for 'exts.deps.generated-0.0.0' in file: `c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/apps/exts.deps.generated.kit`
+Selected environment: integ for app version: 110.4.1 with regex: 
+[11/27/26 01:11:22] WARNING  Git rev-parse failed, returning       nvenv.py:353
+                             '00Dev000' fallback. Full output:                 
+                             {'stdout': '', 'stderr': 'fatal:                  
+                             Needed a single revision',                        
+                             'returncode': 128, 'status': 'error'}             
+Build number: '110.4.1+mr.0.00Dev000.local'
+Written to file: 'c:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\debug\VERSION'
+[11/27/26 01:11:23] WARNING  Git rev-parse failed, returning       nvenv.py:353
+                             '00Dev000' fallback. Full output:                 
+                             {'stdout': '', 'stderr': 'fatal:                  
+                             Needed a single revision',                        
+                             'returncode': 128, 'status': 'error'}             
+Build number: '110.4.1+mr.0.00Dev000.local'
+Written to file: 'c:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\VERSION'
+Building configurations...
+Running action 'no-compile'...
+Generated _build/windows-x86_64/debug/compile_commands.json...
+Generated _build/windows-x86_64/release/compile_commands.json...
+Done (4746ms).
+>>> Stage Files Step. Doing file copy and folder linking.
+>>> File doesn't exist: C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/prebuild.toml. Skipping.
+>>> Processing file: C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/generated/prebuild.toml
+>>> VS Code setup. Writing: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\setup_python_env.bat
+>>> VS Code setup. Writing: C:\Users\Admin\Documents\GitHub\creo-smart-drawing\omniverse\src\kit-app-template-main\_build\windows-x86_64\release\site\sitecustomize.py
+>>> VS Code setup. Writing: C:/Users/Admin/Documents/GitHub/creo-smart-drawing/omniverse/src/kit-app-template-main/.vscode/settings.json
+BUILD (RELEASE) SUCCEEDED (Took 159.76 seconds)

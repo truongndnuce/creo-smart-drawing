@@ -1,0 +1,15 @@
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+ProEngineerStart                   -> 0
+ProDirectoryChange                 -> 0
+ProMdlnameRetrieve                 -> 0
+ProSolidRegenerate                 -> 0
+ProSolidMassPropertyGet            -> 0
+  volume=9.5625e+06 surface=525000 density=7.86e-06 mass=75.1612
+ProSolidOutlineGet                 -> 0
+  outline min=(-75,-25,0) max=(75,25,1275)
+ProIntf3DFileWriteWithDefaultProfile -> 0
+Creo stays open for 15 s ...
+ProEngineerEnd                     -> 0
+exit=0

@@ -1,0 +1,7 @@
+starting Creo ...
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+box = (-150,0,-100)-(150,90,100)
+expected = (-150,0,-100)-(150,90,100)
+RESULT OK

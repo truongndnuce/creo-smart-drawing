@@ -1,0 +1,14 @@
+DLL version 1 loaded in .NET 10.0.14, x64=True
+Files\PTC\Creo was unexpected at this time.
+PhoneHome error 0 while ProNotificationSet status 0
+PhoneHome error 0 while ProNotificationSet status 0
+cb_start -> 0 (12064 ms) 
+cb_set_workdir -> 0
+Y axis TOP flip0: cyl -> 0 mass properties unavailable (-1) | measure -> 0 | box X -45..-15, Y 20..100, Z -5..25
+X axis RIGHT flip0: cyl -> 0 mass properties unavailable (-1) | measure -> 0 | box X 20..100, Y -5..25, Z -45..-15
+X axis RIGHT flip1: cyl -> 0 mass properties unavailable (-1) | measure -> 0 | box X -60..20, Y -5..25, Z -45..-15
+Z axis FRONT flip0: cyl -> 0 mass properties unavailable (-1) | measure -> 0 | box X 15..45, Y -5..25, Z 20..100
+Z axis FRONT flip1: cyl -> 0 mass properties unavailable (-1) | measure -> 0 | box X 15..45, Y -5..25, Z -60..20
+Creo stays open for 20 s ...
+cb_end -> 0 (0 ms) 
+WARNING: Name Server is shutting down due to timeout reached.

@@ -1,0 +1,178 @@
+Loading user config located at: 'C:/Users/Admin/AppData/Local/ov/data/Kit/creo_viewer Streaming/0.1/user.config.json'
+2026-11-26T18:32:30Z [Info] [carb] Logging to file: C:/Users/Admin/.nvidia-omniverse/logs/Kit/creo_viewer Streaming/0.1/kit_20261127_013230.log
+[1.044s] [ext: omni.activity.core-1.0.4] startup
+[1.300s] [ext: omni.activity.profiler-1.0.4] startup
+[1.319s] [ext: omni.assets.plugins-0.0.0] startup
+[1.338s] [ext: omni.blobkey-1.1.2] startup
+[1.341s] [ext: omni.kit.async_engine-0.0.6] startup
+[1.356s] [ext: omni.client.lib-1.1.1] startup
+[1.440s] [ext: omni.client-1.3.0] startup
+[1.460s] [ext: omni.protobuf.lib-1.0.1] startup
+[1.465s] [ext: omni.grpc.lib-1.0.1] startup
+[1.468s] [ext: omni.metrics.core-0.0.3] startup
+[1.471s] [ext: omni.datastore-0.0.0] startup
+[1.478s] [ext: omni.gpu_foundation.shadercache.d3d12-1.0.0] startup
+[1.522s] [ext: omni.hsscclient-1.1.4] startup
+[1.529s] [ext: omni.stats-1.0.1] startup
+[1.540s] [ext: omni.ujitso.default-1.0.0] startup
+[1.577s] [ext: omni.gpu_foundation-0.0.0] startup
+[1.741s] [ext: carb.windowing.plugins-1.0.1] startup
+[1.751s] [ext: omni.kit.renderer.init-1.0.1] startup
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 617.42        | Graphics API: D3D12
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 5060          | Yes: 0 |     | 7895    MB | 10de      | 171f0100.. |
+|     |                                  |        |     |            | 2d05      | 0          |
+|     |                                  |        |     |            | 1         |            |
+|=============================================================================================|
+| OS: Windows 11 Pro, Version: 10.0 (23H2), Build: 22631, Kernel: 10.0.22621.3880
+| Processor: Intel(R) Core(TM) i5-14600KF
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 32524 | Free Memory: 16823
+| Total Page/Swap (MB): 34572 | Free Page/Swap: 12046
+|---------------------------------------------------------------------------------------------|
+[2.422s] [ext: omni.kit.pipapi-0.0.0] startup
+[2.430s] [ext: omni.kit.pip_archive-0.0.0] startup
+[2.434s] [ext: omni.kit.loop-default-0.2.2] startup
+[2.438s] [ext: omni.kit.test-2.2.4] startup
+[2.920s] [ext: omni.gpucompute.plugins-0.0.0] startup
+[2.927s] [ext: omni.usd.config-1.0.8] startup
+2026-11-26T18:32:33Z [2,761ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+[2.954s] [ext: omni.usd.libs-1.0.3] startup
+[3.325s] [ext: omni.iray.libs-0.0.1] startup
+[4.050s] [ext: omni.mdl-57.0.6] startup
+[4.512s] [ext: omni.mdl.neuraylib-0.2.23] startup
+[4.549s] [ext: omni.kit.usd.mdl-1.1.12] startup
+[4.843s] [ext: omni.appwindow-1.2.2] startup
+[4.858s] [ext: omni.kit.renderer.core-1.3.2] startup
+[4.959s] [ext: omni.kit.renderer.capture-2.0.2] startup
+[4.990s] [ext: omni.kit.renderer.imgui-2.2.2] startup
+[5.171s] [ext: omni.ui-3.3.11] startup
+[5.235s] [ext: omni.kit.mainwindow-1.0.4] startup
+[5.246s] [ext: carb.audio-0.1.0] startup
+[5.252s] [ext: omni.uiaudio-1.0.0] startup
+[5.262s] [ext: omni.kit.uiapp-0.0.0] startup
+[5.262s] [ext: omni.usd.schema.anim-0.0.1] startup
+[5.356s] [ext: omni.usd.schema.audio-0.0.1] startup
+[5.380s] [ext: omni.usd.schema.geospatial-0.0.1] startup
+[5.400s] [ext: omni.graph.exec-0.9.6] startup
+[5.404s] [ext: omni.kit.exec.core-0.13.7] startup
+[5.419s] [ext: omni.usd_resolver-1.0.0] startup
+[5.455s] [ext: omni.usd.core-1.10.45] startup
+[5.470s] [ext: omni.usd.schema.omni_dome_light-1.0.0] startup
+[5.479s] [ext: omni.usd.schema.omni_projectors-1.0.0] startup
+[5.488s] [ext: omni.usd.schema.omnigraph-1.0.1] startup
+[5.520s] [ext: omni.usd.schema.physical_lighting-0.1.0] startup
+[5.540s] [ext: omni.usd.schema.render_settings.rtx-1.0.3] startup
+[5.563s] [ext: omni.usd.schema.sequence-3.2.1] startup
+[5.585s] [ext: omni.usd.schema.usd_particle_field-1.0.0] startup
+[5.594s] [ext: omni.activity.pump-1.0.1] startup
+[5.603s] [ext: omni.cubric-0.1.0] startup
+[5.610s] [ext: omni.hydra.scene_delegate-0.3.5] startup
+[5.620s] [ext: usdrt.scenegraph-7.6.3] startup
+[5.782s] [ext: omni.hydra.usdrt_delegate-7.5.2] startup
+[5.814s] [ext: omni.kit.actions.core-1.2.1] startup
+[5.841s] [ext: omni.kit.audiodeviceenum-1.0.2] startup
+[5.857s] [ext: omni.kit.commands-1.6.2] startup
+[5.906s] [ext: omni.kit.usd_undo-0.1.8] startup
+[5.914s] [ext: omni.kit.window.popup_dialog-2.0.26] startup
+[5.949s] [ext: omni.kit.widget.connection_manager-1.0.4] startup
+[6.012s] [ext: omni.timeline-1.1.2] startup
+[6.023s] [ext: omni.usd-1.19.12] startup
+[6.225s] [ext: omni.activity.usd_resolver-1.0.4] startup
+[6.232s] [ext: omni.hydra.rtx.shadercache.d3d12-1.0.0] startup
+[6.240s] [ext: omni.index.libs-392300.2120.0] startup
+[6.240s] [ext: omni.index-1.0.1] startup
+[6.244s] [ext: omni.ujitso.client-0.0.0] startup
+[6.247s] [ext: omni.usd.schema.playback-1.1.0] startup
+[6.255s] [ext: omni.volume-0.5.2] startup
+[6.285s] [ext: omni.hydra.rtx-1.0.5] startup
+[6.863s] [ext: omni.kit.clipboard-1.1.1] startup
+[6.870s] [ext: omni.kit.helper.file_utils-0.1.10] startup
+[6.883s] [ext: omni.kit.hydra_texture-1.6.3] startup
+[6.898s] [ext: omni.kit.livestream.messaging-1.3.5] startup
+[6.913s] [ext: omni.kit.menu.core-1.3.0] startup
+[6.920s] [ext: omni.kit.menu.utils-2.2.8] startup
+[6.955s] [ext: omni.kit.notification_manager-1.0.17] startup
+[6.981s] [ext: omni.kit.stage_template.core-1.1.23] startup
+[6.988s] [ext: omni.kit.widget.path_field-2.0.14] startup
+[7.005s] [ext: omni.kit.widget.browser_bar-2.0.11] startup
+[7.021s] [ext: omni.kit.widget.context_menu-1.5.0] startup
+[7.046s] [ext: omni.kit.widget.filebrowser-2.14.6] startup
+[7.116s] [ext: omni.kit.widget.nucleus_connector-2.4.0] startup
+[7.120s] [ext: omni.kit.widget.options_menu-1.1.7] startup
+[7.167s] [ext: omni.kit.widget.options_button-1.0.3] startup
+[7.178s] [ext: omni.ui.scene-2.1.1] startup
+[7.205s] [ext: omni.kit.window.filepicker-3.0.19] startup
+[7.354s] [ext: omni.kit.window.file_exporter-1.0.38] startup
+[7.366s] [ext: omni.kit.window.file_importer-1.1.23] startup
+[7.374s] [ext: omni.kit.window.file-2.0.17] startup
+[7.407s] [ext: omni.activity.ui-1.3.0] startup
+[7.477s] [ext: omni.kit.usd.layers-2.7.10] startup
+[7.545s] [ext: omni.kit.viewport.registry-104.0.6] startup
+[7.553s] [ext: omni.kit.widget.viewport-110.0.3] startup
+[7.595s] [ext: omni.kit.viewport.window-110.0.6] startup
+[7.702s] [ext: omni.kit.viewport.utility-2.1.2] startup
+[7.706s] [ext: creo_viewer_messaging-0.1.0] startup
+[7.720s] [ext: omni.inspect-1.0.2] startup
+[7.735s] [ext: omni.graph.core-3.1.8] startup
+[7.748s] [ext: omni.graph.tools-1.81.0] startup
+[8.084s] [ext: omni.graph-1.142.6] startup
+[8.342s] [ext: omni.kit.primitive.mesh-1.1.1] startup
+[8.405s] [ext: omni.kit.stage_templates-2.0.3] startup
+[8.430s] [ext: omni.anim.curve.core-1.6.1] startup
+[8.529s] [ext: omni.graph.action_core-1.1.9] startup
+[8.546s] [ext: omni.anim.timeline-110.0.1] startup
+[8.565s] [ext: omni.graph.action_nodes_core-2.11.0] startup
+[8.579s] [ext: omni.graph.action_nodes-2.11.0] startup
+[8.664s] [ext: omni.graph.action-2.10.2] startup
+[8.669s] [ext: omni.graph.image.core-0.6.1] startup
+[8.673s] [ext: omni.graph.image.nodes-1.3.2] startup
+[8.679s] [ext: omni.graph.nodes_core-2.11.0] startup
+[8.714s] [ext: omni.graph.nodes-2.12.1] startup
+[8.740s] [ext: omni.graph.scriptnode-2.10.2] startup
+[8.780s] [ext: omni.graph.ui_nodes-2.11.2] startup
+[8.972s] [ext: omni.kit.data2ui.core-1.1.4] startup
+[8.996s] [ext: omni.kit.data2ui.usd-1.1.4] startup
+[9.131s] [ext: omni.kit.manipulator.camera-110.1.1] startup
+[9.174s] [ext: omni.kit.manipulator.selection-110.1.0] startup
+[9.190s] [ext: omni.kit.quicklayout-1.0.12] startup
+[9.201s] [ext: omni.kit.renderer.ready-1.0.0] startup
+[9.209s] [ext: omni.kit.sequencer.usd-110.0.1] startup
+[9.226s] [ext: omni.kit.sequencer.core-110.0.1] startup
+[9.253s] [ext: omni.no_code_ui.bundle-1.1.4] startup
+[9.253s] [ext: omni.usd_viewer.samples-106.3.3] startup
+[9.260s] [ext: my_creo_viewer-0.1.0] startup
+[9.269s] [ext: creo_viewer-0.1.0] startup
+[9.269s] [ext: omni.kit.livestream.core-10.5.0] startup
+[9.288s] [ext: omni.kit.livestream.webrtc-10.7.4] startup
+[9.332s] [ext: omni.kit.livestream.app-10.4.1] startup
+[9.342s] [ext: creo_viewer_streaming-0.1.0] startup
+[14.461s] app ready
+2026-11-26T18:32:54Z [24,006ms] [Warning] [omni.kit.livestream.messaging.large._extension] [omni.kit.livestream.messaging] No handler registered for event_type 'loadingStateQuery' via observe or observe_and_dispatch; the client will receive no response.
+2026-11-26T18:33:41Z [70,387ms] [Warning] [omni.kit.livestream.messaging.large._extension] [omni.kit.livestream.messaging] No handler registered for event_type 'openStageRequest' via observe or observe_and_dispatch; the client will receive no response.
+2026-11-26T18:33:41Z [70,399ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,400ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,400ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,400ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,400ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,400ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,401ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,401ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,401ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,401ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,402ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,402ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,402ms] [Warning] [creo_viewer_messaging.stage_loading] The file that the client requested failed to load: c:/users/admin/documents/github/creo-smart-drawing/omniverse/src/kit-app-template-main/_build/windows-x86_64/release/extscache/omni.usd_viewer.samples-106.3.3//samples_data/stage01.usd (error: UsdContext busy)
+2026-11-26T18:33:41Z [70,625ms] [Warning] [omni.rtx] Detected deprecated setting 'rtx:post:backgroundZeroAlpha:backgroundDefaultColor' in file, converted to new settings, please save the file to keep the change.
+2026-11-26T18:33:41Z [70,628ms] [Warning] [omni.usd] Encountered USD Warnings but USD Diagnostics are currently muted. To view USD Warnings, please set the '/persistent/app/usd/muteUsdDiagnostics' setting to false in Preferences page.
+[71.226s] RTX ready
+2026-11-26T18:33:53Z [82,233ms] [Warning] [omni.kit.livestream.messaging.large._extension] [omni.kit.livestream.messaging] No handler registered for event_type 'getChildrenRequest' via observe or observe_and_dispatch; the client will receive no response.
+2026-11-26T18:33:53Z [82,250ms] [Warning] [omni.kit.livestream.messaging.large._extension] [omni.kit.livestream.messaging] No handler registered for event_type 'makePrimsPickable' via observe or observe_and_dispatch; the client will receive no response.
+2026-11-26T18:36:09Z [218,294ms] [Warning] [omni.kit.livestream.messaging.large._extension] [omni.kit.livestream.messaging] No handler registered for event_type 'selectPrimsRequest' via observe or observe_and_dispatch; the client will receive no response.
